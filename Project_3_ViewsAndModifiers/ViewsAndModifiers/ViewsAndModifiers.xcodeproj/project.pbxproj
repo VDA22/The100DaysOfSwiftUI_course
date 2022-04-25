@@ -11,6 +11,13 @@
 		A74CC42B2815559C008B6CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC42A2815559C008B6CB5 /* ContentView.swift */; };
 		A74CC42D281555A0008B6CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74CC42C281555A0008B6CB5 /* Assets.xcassets */; };
 		A74CC430281555A0008B6CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74CC42F281555A0008B6CB5 /* Preview Assets.xcassets */; };
+		A74CC43B28170D46008B6CB5 /* ModifierOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC43A28170D46008B6CB5 /* ModifierOrderView.swift */; };
+		A74CC43D28170DCC008B6CB5 /* ColorChangableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC43C28170DCC008B6CB5 /* ColorChangableView.swift */; };
+		A74CC43F28170E3D008B6CB5 /* EnvironmentModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC43E28170E3D008B6CB5 /* EnvironmentModifiersView.swift */; };
+		A74CC44128170EA4008B6CB5 /* ViewBuildersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC44028170EA4008B6CB5 /* ViewBuildersView.swift */; };
+		A74CC44328170F2F008B6CB5 /* CompositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC44228170F2F008B6CB5 /* CompositionsView.swift */; };
+		A74CC44528170FD1008B6CB5 /* CustomModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC44428170FD1008B6CB5 /* CustomModifiersView.swift */; };
+		A74CC447281710FA008B6CB5 /* CustomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC446281710FA008B6CB5 /* CustomContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		A74CC42A2815559C008B6CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A74CC42C281555A0008B6CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74CC42F281555A0008B6CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A74CC43A28170D46008B6CB5 /* ModifierOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifierOrderView.swift; sourceTree = "<group>"; };
+		A74CC43C28170DCC008B6CB5 /* ColorChangableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangableView.swift; sourceTree = "<group>"; };
+		A74CC43E28170E3D008B6CB5 /* EnvironmentModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModifiersView.swift; sourceTree = "<group>"; };
+		A74CC44028170EA4008B6CB5 /* ViewBuildersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuildersView.swift; sourceTree = "<group>"; };
+		A74CC44228170F2F008B6CB5 /* CompositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionsView.swift; sourceTree = "<group>"; };
+		A74CC44428170FD1008B6CB5 /* CustomModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiersView.swift; sourceTree = "<group>"; };
+		A74CC446281710FA008B6CB5 /* CustomContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				A74CC4282815559C008B6CB5 /* ViewsAndModifiersApp.swift */,
 				A74CC42A2815559C008B6CB5 /* ContentView.swift */,
+				A74CC43A28170D46008B6CB5 /* ModifierOrderView.swift */,
+				A74CC43C28170DCC008B6CB5 /* ColorChangableView.swift */,
+				A74CC43E28170E3D008B6CB5 /* EnvironmentModifiersView.swift */,
+				A74CC44028170EA4008B6CB5 /* ViewBuildersView.swift */,
+				A74CC44228170F2F008B6CB5 /* CompositionsView.swift */,
+				A74CC44428170FD1008B6CB5 /* CustomModifiersView.swift */,
+				A74CC446281710FA008B6CB5 /* CustomContainerView.swift */,
 				A74CC42C281555A0008B6CB5 /* Assets.xcassets */,
 				A74CC42E281555A0008B6CB5 /* Preview Content */,
 			);
@@ -139,6 +160,13 @@
 			files = (
 				A74CC42B2815559C008B6CB5 /* ContentView.swift in Sources */,
 				A74CC4292815559C008B6CB5 /* ViewsAndModifiersApp.swift in Sources */,
+				A74CC44328170F2F008B6CB5 /* CompositionsView.swift in Sources */,
+				A74CC43F28170E3D008B6CB5 /* EnvironmentModifiersView.swift in Sources */,
+				A74CC447281710FA008B6CB5 /* CustomContainerView.swift in Sources */,
+				A74CC44528170FD1008B6CB5 /* CustomModifiersView.swift in Sources */,
+				A74CC43D28170DCC008B6CB5 /* ColorChangableView.swift in Sources */,
+				A74CC43B28170D46008B6CB5 /* ModifierOrderView.swift in Sources */,
+				A74CC44128170EA4008B6CB5 /* ViewBuildersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
