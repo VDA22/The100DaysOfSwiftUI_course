@@ -11,6 +11,8 @@
 		A73C5C1A27EF31D7002344F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C5C1927EF31D7002344F8 /* ContentView.swift */; };
 		A73C5C1C27EF31D9002344F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73C5C1B27EF31D9002344F8 /* Assets.xcassets */; };
 		A73C5C1F27EF31D9002344F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73C5C1E27EF31D9002344F8 /* Preview Assets.xcassets */; };
+		A74CC437281709E3008B6CB5 /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC436281709E3008B6CB5 /* FlagImage.swift */; };
+		A74CC43928170AD4008B6CB5 /* BlueLargeTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC43828170AD4008B6CB5 /* BlueLargeTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A73C5C1927EF31D7002344F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A73C5C1B27EF31D9002344F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73C5C1E27EF31D9002344F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A74CC436281709E3008B6CB5 /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
+		A74CC43828170AD4008B6CB5 /* BlueLargeTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueLargeTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				A73C5C1727EF31D7002344F8 /* GuessTheFlagApp.swift */,
 				A73C5C1927EF31D7002344F8 /* ContentView.swift */,
+				A74CC436281709E3008B6CB5 /* FlagImage.swift */,
+				A74CC43828170AD4008B6CB5 /* BlueLargeTitle.swift */,
 				A73C5C1B27EF31D9002344F8 /* Assets.xcassets */,
 				A73C5C1D27EF31D9002344F8 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74CC43928170AD4008B6CB5 /* BlueLargeTitle.swift in Sources */,
 				A73C5C1A27EF31D7002344F8 /* ContentView.swift in Sources */,
+				A74CC437281709E3008B6CB5 /* FlagImage.swift in Sources */,
 				A73C5C1827EF31D7002344F8 /* GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

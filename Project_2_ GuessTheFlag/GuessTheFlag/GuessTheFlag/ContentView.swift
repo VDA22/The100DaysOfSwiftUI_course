@@ -58,10 +58,7 @@ struct ContentView: View {
 						Button {
 							flagTapped(number)
 						} label: {
-							Image(countries[number].lowercased())
-								.renderingMode(.original)
-								.clipShape(Capsule())
-								.shadow(color: .white, radius: 5)
+							FlagImage(country: countries[number].lowercased())
 						}
 					}
 				}
