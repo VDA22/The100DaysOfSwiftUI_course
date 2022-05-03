@@ -14,6 +14,7 @@
 		A74CC463281715DE008B6CB5 /* AgreeToAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC462281715DD008B6CB5 /* AgreeToAllView.swift */; };
 		A74CC46528216CB2008B6CB5 /* HoursStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC46428216CB1008B6CB5 /* HoursStepperView.swift */; };
 		A74CC46728216DA8008B6CB5 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CC46628216DA8008B6CB5 /* DatePickerView.swift */; };
+		A74CC4692821A218008B6CB5 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A74CC4682821A218008B6CB5 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A74CC462281715DD008B6CB5 /* AgreeToAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeToAllView.swift; sourceTree = "<group>"; };
 		A74CC46428216CB1008B6CB5 /* HoursStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursStepperView.swift; sourceTree = "<group>"; };
 		A74CC46628216DA8008B6CB5 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		A74CC4682821A218008B6CB5 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SleepCalculator.mlmodel; path = ../../SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A74CC462281715DD008B6CB5 /* AgreeToAllView.swift */,
 				A74CC46428216CB1008B6CB5 /* HoursStepperView.swift */,
 				A74CC46628216DA8008B6CB5 /* DatePickerView.swift */,
+				A74CC4682821A218008B6CB5 /* SleepCalculator.mlmodel */,
 				A74CC458281712E8008B6CB5 /* Assets.xcassets */,
 				A74CC45A281712E8008B6CB5 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				A74CC46528216CB2008B6CB5 /* HoursStepperView.swift in Sources */,
 				A74CC46728216DA8008B6CB5 /* DatePickerView.swift in Sources */,
 				A74CC463281715DE008B6CB5 /* AgreeToAllView.swift in Sources */,
+				A74CC4692821A218008B6CB5 /* SleepCalculator.mlmodel in Sources */,
 				A74CC457281712E6008B6CB5 /* ContentView.swift in Sources */,
 				A74CC455281712E6008B6CB5 /* BetterRestApp.swift in Sources */,
 			);
