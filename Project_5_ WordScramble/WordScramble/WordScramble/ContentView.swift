@@ -16,6 +16,8 @@ struct ContentView: View {
 	@State private var errorMessage = ""
 	@State private var showError = false
 
+	@State private var score = 0
+
     var body: some View {
 		NavigationView {
 			List {
@@ -39,6 +41,14 @@ struct ContentView: View {
 			.alert(errorTitle, isPresented: $showError) {
 				Button("OK", role: .cancel) { }
 			} message: { Text(errorMessage) }
+			.toolbar {
+				ToolbarItem(placement: .navigationBarTrailing) {
+					Button("Restart") { startGame() }
+				}
+				ToolbarItem(placement: .bottomBar) {
+					Text("Your Score is \(score)")
+				}
+			}
 
 		}
 		.navigationViewStyle(.stack)
@@ -63,13 +73,28 @@ struct ContentView: View {
 			return
 		}
 
+		guard isLongEnough(word: answer) else {
+			wordError(title: "Word is too short!", message: "You can do better!")
+			return
+		}
+
+		guard isNotEqualToRootWord(word: answer) else {
+			wordError(title: "Stop cheating!", message: "You can't use root word!")
+			return
+		}
+
 		withAnimation {
 			usedWords.insert(answer, at: 0)
+			score += answer.utf16.count
 		}
 		newWord = ""
 	}
 
 	func startGame() {
+		withAnimation {
+			score = 0
+			usedWords = []
+		}
 		if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt"),
 		   let startWords = try? String(contentsOf: startWordsURL) {
 			let allWords = startWords.components(separatedBy: "\n")
@@ -98,6 +123,14 @@ struct ContentView: View {
 	func isReal(word: String) -> Bool {
 		let checker = TextChecker()
 		return checker.test(word: word)
+	}
+
+	func isLongEnough(word: String) -> Bool {
+		word.utf16.count >= 3
+	}
+
+	func isNotEqualToRootWord(word: String) -> Bool {
+		word != rootWord
 	}
 
 	func wordError(title: String, message: String) {
