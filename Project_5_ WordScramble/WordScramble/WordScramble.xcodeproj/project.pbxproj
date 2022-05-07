@@ -11,6 +11,9 @@
 		A7AD7604282690E70093AA63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD7603282690E70093AA63 /* ContentView.swift */; };
 		A7AD7606282690E90093AA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AD7605282690E90093AA63 /* Assets.xcassets */; };
 		A7AD7609282690E90093AA63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AD7608282690E90093AA63 /* Preview Assets.xcassets */; };
+		A7AD7610282699880093AA63 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD760F282699880093AA63 /* ListsView.swift */; };
+		A7AD761228269FF90093AA63 /* TextChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD761128269FF80093AA63 /* TextChecker.swift */; };
+		A7AD76162826A52E0093AA63 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A7AD76152826A52E0093AA63 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A7AD7603282690E70093AA63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7AD7605282690E90093AA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7AD7608282690E90093AA63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7AD760F282699880093AA63 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		A7AD761128269FF80093AA63 /* TextChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextChecker.swift; sourceTree = "<group>"; };
+		A7AD76152826A52E0093AA63 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				A7AD7601282690E70093AA63 /* WordScrambleApp.swift */,
 				A7AD7603282690E70093AA63 /* ContentView.swift */,
+				A7AD760F282699880093AA63 /* ListsView.swift */,
+				A7AD76152826A52E0093AA63 /* start.txt */,
+				A7AD761128269FF80093AA63 /* TextChecker.swift */,
 				A7AD7605282690E90093AA63 /* Assets.xcassets */,
 				A7AD7607282690E90093AA63 /* Preview Content */,
 			);
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AD7609282690E90093AA63 /* Preview Assets.xcassets in Resources */,
+				A7AD76162826A52E0093AA63 /* start.txt in Resources */,
 				A7AD7606282690E90093AA63 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AD7604282690E70093AA63 /* ContentView.swift in Sources */,
+				A7AD7610282699880093AA63 /* ListsView.swift in Sources */,
+				A7AD761228269FF90093AA63 /* TextChecker.swift in Sources */,
 				A7AD7602282690E70093AA63 /* WordScrambleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

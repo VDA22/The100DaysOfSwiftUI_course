@@ -8,8 +8,7 @@
 import UIKit
 
 struct TextChecker {
-	func test() {
-		let word = "swift"
+	func test(word: String) -> Bool {
 		let checker = UITextChecker()
 
 		let range = NSRange(location: 0, length: word.utf16.count)
@@ -22,5 +21,6 @@ struct TextChecker {
 		)
 
 		let allGood = misspelledRange.location == NSNotFound
+		return allGood
 	}
 }
