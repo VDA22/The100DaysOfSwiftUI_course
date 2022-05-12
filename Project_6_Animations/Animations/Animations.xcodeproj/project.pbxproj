@@ -11,6 +11,7 @@
 		A725F6AA282D10D8009D25E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725F6A9282D10D8009D25E7 /* ContentView.swift */; };
 		A725F6AC282D10DA009D25E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A725F6AB282D10DA009D25E7 /* Assets.xcassets */; };
 		A725F6AF282D10DA009D25E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A725F6AE282D10DA009D25E7 /* Preview Assets.xcassets */; };
+		A725F6B6282D11A2009D25E7 /* ScaleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725F6B5282D11A2009D25E7 /* ScaleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A725F6A9282D10D8009D25E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A725F6AB282D10DA009D25E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A725F6AE282D10DA009D25E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A725F6B5282D11A2009D25E7 /* ScaleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A725F6A7282D10D8009D25E7 /* AnimationsApp.swift */,
 				A725F6A9282D10D8009D25E7 /* ContentView.swift */,
+				A725F6B5282D11A2009D25E7 /* ScaleButtonView.swift */,
 				A725F6AB282D10DA009D25E7 /* Assets.xcassets */,
 				A725F6AD282D10DA009D25E7 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A725F6B6282D11A2009D25E7 /* ScaleButtonView.swift in Sources */,
 				A725F6AA282D10D8009D25E7 /* ContentView.swift in Sources */,
 				A725F6A8282D10D8009D25E7 /* AnimationsApp.swift in Sources */,
 			);
