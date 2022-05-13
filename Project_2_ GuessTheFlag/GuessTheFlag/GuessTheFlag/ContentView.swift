@@ -12,7 +12,9 @@ struct ContentView: View {
 	@State private var scoreTitle = ""
 	@State private var score = 0
 	@State private var totalCountOfAnswers = 0
-
+    
+    @State private var isNeedEffects = false
+    
 	@State private var countries = [
 		"Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria",
 		"Poland", "Russia", "Spain", "UK", "US"
@@ -57,8 +59,18 @@ struct ContentView: View {
 					ForEach(0 ..< 3) { number in
 						Button {
 							flagTapped(number)
+                            withAnimation {
+                                isNeedEffects = true
+                            }
 						} label: {
 							FlagImage(country: countries[number].lowercased())
+        
+                                .rotation3DEffect(
+                                    .degrees(isNeedEffects && number == correctAnswer ? 360 : 0),
+                                    axis: (x: 0, y: 1, z: 0)
+                                )
+                                .opacity((isNeedEffects && number != correctAnswer ? 0.25 : 1))
+                                .blur(radius: (isNeedEffects && number != correctAnswer) ? 2 : 0)
 						}
 					}
 				}
@@ -105,6 +117,8 @@ struct ContentView: View {
 	}
 
 	func askQuestion() {
+        isNeedEffects = false
+        
 		if totalCountOfAnswers == 8 {
 			showingFinish = true
 		} else {
