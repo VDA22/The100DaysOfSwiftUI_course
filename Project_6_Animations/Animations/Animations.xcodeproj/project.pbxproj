@@ -16,6 +16,7 @@
 		A725F6BA282D21F4009D25E7 /* TwistButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725F6B9282D21F4009D25E7 /* TwistButtonView.swift */; };
 		A725F6BC282E6B6D009D25E7 /* RoundCornersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725F6BB282E6B6D009D25E7 /* RoundCornersButton.swift */; };
 		A725F6BE282E6DE5009D25E7 /* DragCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725F6BD282E6DE5009D25E7 /* DragCardView.swift */; };
+		A725F6C0282E7766009D25E7 /* TransitionRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A725F6BF282E7765009D25E7 /* TransitionRectangleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A725F6B9282D21F4009D25E7 /* TwistButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwistButtonView.swift; sourceTree = "<group>"; };
 		A725F6BB282E6B6D009D25E7 /* RoundCornersButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornersButton.swift; sourceTree = "<group>"; };
 		A725F6BD282E6DE5009D25E7 /* DragCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragCardView.swift; sourceTree = "<group>"; };
+		A725F6BF282E7765009D25E7 /* TransitionRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionRectangleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				A725F6B9282D21F4009D25E7 /* TwistButtonView.swift */,
 				A725F6BB282E6B6D009D25E7 /* RoundCornersButton.swift */,
 				A725F6BD282E6DE5009D25E7 /* DragCardView.swift */,
+				A725F6BF282E7765009D25E7 /* TransitionRectangleView.swift */,
 				A725F6AB282D10DA009D25E7 /* Assets.xcassets */,
 				A725F6AD282D10DA009D25E7 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				A725F6BE282E6DE5009D25E7 /* DragCardView.swift in Sources */,
 				A725F6B6282D11A2009D25E7 /* ScaleButtonView.swift in Sources */,
 				A725F6BA282D21F4009D25E7 /* TwistButtonView.swift in Sources */,
+				A725F6C0282E7766009D25E7 /* TransitionRectangleView.swift in Sources */,
 				A725F6AA282D10D8009D25E7 /* ContentView.swift in Sources */,
 				A725F6A8282D10D8009D25E7 /* AnimationsApp.swift in Sources */,
 				A725F6B8282D2018009D25E7 /* ScaleStepperAndButtonView.swift in Sources */,
