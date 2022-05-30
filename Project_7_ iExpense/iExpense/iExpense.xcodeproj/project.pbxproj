@@ -13,6 +13,7 @@
 		DD510E4C2844CDEC0043615B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD510E4B2844CDEC0043615B /* Preview Assets.xcassets */; };
 		DD510E532844D3910043615B /* StatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E522844D3910043615B /* StatesView.swift */; };
 		DD510E552844D48E0043615B /* ShowSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E542844D48E0043615B /* ShowSheetView.swift */; };
+		DD510E572844D6E00043615B /* ListWithActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E562844D6E00043615B /* ListWithActionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DD510E4B2844CDEC0043615B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD510E522844D3910043615B /* StatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesView.swift; sourceTree = "<group>"; };
 		DD510E542844D48E0043615B /* ShowSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSheetView.swift; sourceTree = "<group>"; };
+		DD510E562844D6E00043615B /* ListWithActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithActionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				DD510E442844CDEB0043615B /* iExpenseApp.swift */,
 				DD510E462844CDEB0043615B /* ContentView.swift */,
 				DD510E542844D48E0043615B /* ShowSheetView.swift */,
+				DD510E562844D6E00043615B /* ListWithActionsView.swift */,
 				DD510E522844D3910043615B /* StatesView.swift */,
 				DD510E482844CDEC0043615B /* Assets.xcassets */,
 				DD510E4A2844CDEC0043615B /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD510E572844D6E00043615B /* ListWithActionsView.swift in Sources */,
 				DD510E472844CDEB0043615B /* ContentView.swift in Sources */,
 				DD510E452844CDEB0043615B /* iExpenseApp.swift in Sources */,
 				DD510E532844D3910043615B /* StatesView.swift in Sources */,
