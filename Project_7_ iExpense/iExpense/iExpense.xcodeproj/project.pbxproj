@@ -17,6 +17,7 @@
 		DD510E592844DF6F0043615B /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E582844DF6F0043615B /* AppStorageView.swift */; };
 		DD510E5C2844EED40043615B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E5B2844EED30043615B /* ExpenseItem.swift */; };
 		DD510E5E2844EF030043615B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E5D2844EF030043615B /* Expenses.swift */; };
+		DD510E602844F2D60043615B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E5F2844F2D60043615B /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DD510E582844DF6F0043615B /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		DD510E5B2844EED30043615B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		DD510E5D2844EF030043615B /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		DD510E5F2844F2D60043615B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DD510E442844CDEB0043615B /* iExpenseApp.swift */,
 				DD510E5D2844EF030043615B /* Expenses.swift */,
 				DD510E5B2844EED30043615B /* ExpenseItem.swift */,
+				DD510E5F2844F2D60043615B /* AddView.swift */,
 				DD510E5A2844EEC60043615B /* Views */,
 				DD510E462844CDEB0043615B /* ContentView.swift */,
 				DD510E482844CDEC0043615B /* Assets.xcassets */,
@@ -165,6 +168,7 @@
 			files = (
 				DD510E5C2844EED40043615B /* ExpenseItem.swift in Sources */,
 				DD510E592844DF6F0043615B /* AppStorageView.swift in Sources */,
+				DD510E602844F2D60043615B /* AddView.swift in Sources */,
 				DD510E572844D6E00043615B /* ListWithActionsView.swift in Sources */,
 				DD510E472844CDEB0043615B /* ContentView.swift in Sources */,
 				DD510E5E2844EF030043615B /* Expenses.swift in Sources */,
