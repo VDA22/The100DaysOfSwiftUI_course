@@ -11,6 +11,7 @@
 		DD510E472844CDEB0043615B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E462844CDEB0043615B /* ContentView.swift */; };
 		DD510E492844CDEC0043615B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD510E482844CDEC0043615B /* Assets.xcassets */; };
 		DD510E4C2844CDEC0043615B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD510E4B2844CDEC0043615B /* Preview Assets.xcassets */; };
+		DD510E532844D3910043615B /* StatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510E522844D3910043615B /* StatesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD510E462844CDEB0043615B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD510E482844CDEC0043615B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD510E4B2844CDEC0043615B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD510E522844D3910043615B /* StatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DD510E442844CDEB0043615B /* iExpenseApp.swift */,
 				DD510E462844CDEB0043615B /* ContentView.swift */,
+				DD510E522844D3910043615B /* StatesView.swift */,
 				DD510E482844CDEC0043615B /* Assets.xcassets */,
 				DD510E4A2844CDEC0043615B /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				DD510E472844CDEB0043615B /* ContentView.swift in Sources */,
 				DD510E452844CDEB0043615B /* iExpenseApp.swift in Sources */,
+				DD510E532844D3910043615B /* StatesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = HSXJ839659;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = HSXJ839659;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
