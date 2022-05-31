@@ -14,39 +14,80 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(expenses.items) { item in
-                    HStack {
-                        VStack(alignment: .leading) {
-                            Text(item.name)
-                                .font(.headline)
-                            Text(item.type)
-                                .font(.caption)
+                Section("Personal") {
+                    ForEach(expenses.items) { item in
+                        Group {
+                            if item.type == .personal {
+                                makeExpenseRowView(for: item)
+                            }
                         }
-
-                        Spacer()
-
-                        Text(item.amount, format: .currency(code: "USD"))
                     }
-                    
+                    .onDelete(perform: removeItems(at:))
                 }
-                .onDelete(perform: removeItems(at:))
+
+                Section("Business") {
+                    ForEach(expenses.items) { item in
+                        Group {
+                            if item.type != .personal {
+                                makeExpenseRowView(for: item)
+                            }
+                        }
+                    }
+                    .onDelete(perform: removeItems(at:))
+                }
             }
             .navigationTitle("iExpense")
             .toolbar {
-                Button {
-                    showingAddExpense = true
-                } label: {
-                    Image(systemName: "plus")
+                ToolbarItem(id: "Add expense", placement: .primaryAction) {
+                    Button {
+                        showingAddExpense = true
+                    } label: {
+                        Image(systemName: "plus")
+                    }
                 }
             }
             .sheet(isPresented: $showingAddExpense) {
                 AddView(expenses: expenses)
             }
         }
+        .navigationViewStyle(.stack)
     }
     
-    func removeItems(at offsets: IndexSet) {
+    private func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
+    }
+
+    private func getColorFor(amount: Double) -> Color {
+        switch amount {
+        case ..<10:
+            return .green
+        case 10 ... 100:
+            return .orange
+        default:
+            return .red
+        }
+    }
+
+    @ViewBuilder
+    private func makeExpenseRowView(for item: ExpenseItem) -> some View {
+        HStack {
+            VStack(alignment: .leading) {
+                Text(item.name)
+                    .font(.headline)
+                Text(item.type.rawValue)
+                    .font(.caption)
+            }
+
+            Spacer()
+
+            Text(
+                item.amount,
+                format: .currency(
+                    code: Locale.current.currencyCode ?? "USD"
+                )
+            )
+                .foregroundColor(getColorFor(amount: item.amount))
+        }
     }
 }
 

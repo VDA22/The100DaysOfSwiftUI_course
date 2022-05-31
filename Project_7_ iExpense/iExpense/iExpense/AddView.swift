@@ -14,7 +14,7 @@ struct AddView: View {
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = 0.0
-
+    @FocusState private var amountIsFocused: Bool
 
     let types = ["Business", "Personal"]
     
@@ -28,19 +28,34 @@ struct AddView: View {
                         Text($0)
                     }
                 }
-                
+
                 TextField("Amount", value: $amount, format: .currency(code: "USD"))
                     .keyboardType(.decimalPad)
+                    .focused($amountIsFocused)
             }
             .navigationTitle("Add new expense")
             .toolbar {
                 Button("Save") {
-                    let item = ExpenseItem(name: name, type: type, amount: amount)
+                    let item = ExpenseItem(
+                        name: name,
+                        type: ExpenseItem.ExpenseType(rawValue: type) ?? .personal,
+                        amount: amount
+                    )
                     expenses.items.append(item)
                     dismiss()
                 }
             }
+            .toolbar {
+                ToolbarItemGroup(placement: .keyboard) {
+                    Spacer()
+
+                    Button("Done") {
+                        amountIsFocused = false
+                    }
+                }
+            }
         }
+        .navigationViewStyle(.stack)
     }
 }
 
