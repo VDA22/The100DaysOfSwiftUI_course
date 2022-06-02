@@ -14,6 +14,7 @@
 		DD510EB22848B5BC0043615B /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510EB12848B5BC0043615B /* ImagesView.swift */; };
 		DD510EB42848B9B70043615B /* WithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510EB32848B9B70043615B /* WithScrollView.swift */; };
 		DD510EB62848D1410043615B /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510EB52848D1410043615B /* NavigationLinkView.swift */; };
+		DD510EB82848D36A0043615B /* DecodeByButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510EB72848D36A0043615B /* DecodeByButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DD510EB12848B5BC0043615B /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		DD510EB32848B9B70043615B /* WithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithScrollView.swift; sourceTree = "<group>"; };
 		DD510EB52848D1410043615B /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
+		DD510EB72848D36A0043615B /* DecodeByButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeByButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DD510EB12848B5BC0043615B /* ImagesView.swift */,
 				DD510EB32848B9B70043615B /* WithScrollView.swift */,
 				DD510EB52848D1410043615B /* NavigationLinkView.swift */,
+				DD510EB72848D36A0043615B /* DecodeByButtonView.swift */,
 				DD510EA72848B5A90043615B /* Assets.xcassets */,
 				DD510EA92848B5A90043615B /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				DD510EB42848B9B70043615B /* WithScrollView.swift in Sources */,
 				DD510EA42848B5A80043615B /* MoonshotApp.swift in Sources */,
 				DD510EB22848B5BC0043615B /* ImagesView.swift in Sources */,
+				DD510EB82848D36A0043615B /* DecodeByButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
