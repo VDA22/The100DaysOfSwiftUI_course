@@ -13,6 +13,7 @@
 		DD510EAB2848B5A90043615B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD510EAA2848B5A90043615B /* Preview Assets.xcassets */; };
 		DD510EB22848B5BC0043615B /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510EB12848B5BC0043615B /* ImagesView.swift */; };
 		DD510EB42848B9B70043615B /* WithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510EB32848B9B70043615B /* WithScrollView.swift */; };
+		DD510EB62848D1410043615B /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD510EB52848D1410043615B /* NavigationLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DD510EAA2848B5A90043615B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD510EB12848B5BC0043615B /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		DD510EB32848B9B70043615B /* WithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithScrollView.swift; sourceTree = "<group>"; };
+		DD510EB52848D1410043615B /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DD510EA52848B5A80043615B /* ContentView.swift */,
 				DD510EB12848B5BC0043615B /* ImagesView.swift */,
 				DD510EB32848B9B70043615B /* WithScrollView.swift */,
+				DD510EB52848D1410043615B /* NavigationLinkView.swift */,
 				DD510EA72848B5A90043615B /* Assets.xcassets */,
 				DD510EA92848B5A90043615B /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD510EA62848B5A80043615B /* ContentView.swift in Sources */,
+				DD510EB62848D1410043615B /* NavigationLinkView.swift in Sources */,
 				DD510EB42848B9B70043615B /* WithScrollView.swift in Sources */,
 				DD510EA42848B5A80043615B /* MoonshotApp.swift in Sources */,
 				DD510EB22848B5BC0043615B /* ImagesView.swift in Sources */,
