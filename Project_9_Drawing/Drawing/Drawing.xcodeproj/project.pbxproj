@@ -12,6 +12,7 @@
 		DDC54AA2284A4A62003FBD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC54AA1284A4A62003FBD30 /* Assets.xcassets */; };
 		DDC54AA5284A4A62003FBD30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC54AA4284A4A62003FBD30 /* Preview Assets.xcassets */; };
 		DDC54AAC284A4E1E003FBD30 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54AAB284A4E1E003FBD30 /* PathView.swift */; };
+		DDC54AAE284A4EF4003FBD30 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54AAD284A4EF4003FBD30 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DDC54AA1284A4A62003FBD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC54AA4284A4A62003FBD30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDC54AAB284A4E1E003FBD30 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		DDC54AAD284A4EF4003FBD30 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				DDC54A9D284A4A61003FBD30 /* DrawingApp.swift */,
 				DDC54A9F284A4A61003FBD30 /* ContentView.swift */,
+				DDC54AAD284A4EF4003FBD30 /* ShapesView.swift */,
 				DDC54AAB284A4E1E003FBD30 /* PathView.swift */,
 				DDC54AA1284A4A62003FBD30 /* Assets.xcassets */,
 				DDC54AA3284A4A62003FBD30 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				DDC54AA0284A4A61003FBD30 /* ContentView.swift in Sources */,
 				DDC54AAC284A4E1E003FBD30 /* PathView.swift in Sources */,
+				DDC54AAE284A4EF4003FBD30 /* ShapesView.swift in Sources */,
 				DDC54A9E284A4A61003FBD30 /* DrawingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
