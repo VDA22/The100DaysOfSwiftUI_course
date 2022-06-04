@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDB86FF9284B7BD7009B3C49 /* ColoringCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB86FF8284B7BD7009B3C49 /* ColoringCirclesView.swift */; };
 		DDC54A9E284A4A61003FBD30 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54A9D284A4A61003FBD30 /* DrawingApp.swift */; };
 		DDC54AA0284A4A61003FBD30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54A9F284A4A61003FBD30 /* ContentView.swift */; };
 		DDC54AA2284A4A62003FBD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC54AA1284A4A62003FBD30 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDB86FF8284B7BD7009B3C49 /* ColoringCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringCirclesView.swift; sourceTree = "<group>"; };
 		DDC54A9A284A4A61003FBD30 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC54A9D284A4A61003FBD30 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		DDC54A9F284A4A61003FBD30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				DDC54A9D284A4A61003FBD30 /* DrawingApp.swift */,
 				DDC54AB1284B78B2003FBD30 /* ImagePicturedView.swift */,
+				DDB86FF8284B7BD7009B3C49 /* ColoringCirclesView.swift */,
 				DDC54A9F284A4A61003FBD30 /* ContentView.swift */,
 				DDC54AAD284A4EF4003FBD30 /* ShapesView.swift */,
 				DDC54AAF284B7382003FBD30 /* FlowerView.swift */,
@@ -154,6 +157,7 @@
 				DDC54AB2284B78B2003FBD30 /* ImagePicturedView.swift in Sources */,
 				DDC54AB0284B7382003FBD30 /* FlowerView.swift in Sources */,
 				DDC54AAE284A4EF4003FBD30 /* ShapesView.swift in Sources */,
+				DDB86FF9284B7BD7009B3C49 /* ColoringCirclesView.swift in Sources */,
 				DDC54A9E284A4A61003FBD30 /* DrawingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
