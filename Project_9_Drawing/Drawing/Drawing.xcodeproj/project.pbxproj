@@ -14,6 +14,7 @@
 		DDC54AAC284A4E1E003FBD30 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54AAB284A4E1E003FBD30 /* PathView.swift */; };
 		DDC54AAE284A4EF4003FBD30 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54AAD284A4EF4003FBD30 /* ShapesView.swift */; };
 		DDC54AB0284B7382003FBD30 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54AAF284B7382003FBD30 /* FlowerView.swift */; };
+		DDC54AB2284B78B2003FBD30 /* ImagePicturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC54AB1284B78B2003FBD30 /* ImagePicturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DDC54AAB284A4E1E003FBD30 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		DDC54AAD284A4EF4003FBD30 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 		DDC54AAF284B7382003FBD30 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		DDC54AB1284B78B2003FBD30 /* ImagePicturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				DDC54A9D284A4A61003FBD30 /* DrawingApp.swift */,
+				DDC54AB1284B78B2003FBD30 /* ImagePicturedView.swift */,
 				DDC54A9F284A4A61003FBD30 /* ContentView.swift */,
 				DDC54AAD284A4EF4003FBD30 /* ShapesView.swift */,
 				DDC54AAF284B7382003FBD30 /* FlowerView.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				DDC54AA0284A4A61003FBD30 /* ContentView.swift in Sources */,
 				DDC54AAC284A4E1E003FBD30 /* PathView.swift in Sources */,
+				DDC54AB2284B78B2003FBD30 /* ImagePicturedView.swift in Sources */,
 				DDC54AB0284B7382003FBD30 /* FlowerView.swift in Sources */,
 				DDC54AAE284A4EF4003FBD30 /* ShapesView.swift in Sources */,
 				DDC54A9E284A4A61003FBD30 /* DrawingApp.swift in Sources */,
