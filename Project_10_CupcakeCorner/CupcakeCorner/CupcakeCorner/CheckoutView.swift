@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CheckoutView: View {
     @ObservedObject var order: Order
+    @State private var alertTitle = ""
     @State private var confirmaitionMessage = ""
     @State private var showingConfirmation = false
 
@@ -24,7 +25,7 @@ struct CheckoutView: View {
                 }
                 .frame(height: 233)
 
-                Text("Your total is \(order.cost, format: .currency(code: "USD"))")
+                Text("Your total is \(order.model.cost, format: .currency(code: "USD"))")
                     .font(.title)
                 Button("Place Order") {
                     Task {
@@ -36,7 +37,7 @@ struct CheckoutView: View {
         }
         .navigationTitle("Checkout")
         .navigationBarTitleDisplayMode(.inline)
-        .alert("Thank you!", isPresented: $showingConfirmation) {
+        .alert(alertTitle, isPresented: $showingConfirmation) {
             Button("OK") {}
         } message: {
             Text(confirmaitionMessage)
@@ -44,7 +45,7 @@ struct CheckoutView: View {
     }
 
     private func placeOrder() async {
-        guard let encoded = try? JSONEncoder().encode(order) else {
+        guard let encoded = order.encodedOrder else {
             print("Fail to encode order")
             return
         }
@@ -58,10 +59,14 @@ struct CheckoutView: View {
             let (data, response) = try await URLSession.shared.upload(for: request, from: encoded)
 
             print(response)
-            let decodedOrder = try JSONDecoder().decode(Order.self, from: data)
+            let decodedOrder = try JSONDecoder().decode(OrderModel.self, from: data)
+            alertTitle = "Thank you!"
             confirmaitionMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way!"
             showingConfirmation = true
         } catch {
+            alertTitle = "OOPS 😔"
+            confirmaitionMessage = "There is fail with place your order. Plese, try later."
+            showingConfirmation = true
             print("Checkout failed")
         }
     }
