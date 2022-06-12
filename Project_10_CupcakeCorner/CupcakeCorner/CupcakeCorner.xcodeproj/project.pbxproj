@@ -11,6 +11,7 @@
 		DDDDDC362851E7D40010A4B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC352851E7D40010A4B4 /* ContentView.swift */; };
 		DDDDDC382851E7D40010A4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDDC372851E7D40010A4B4 /* Assets.xcassets */; };
 		DDDDDC3B2851E7D40010A4B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDDC3A2851E7D40010A4B4 /* Preview Assets.xcassets */; };
+		DDDDDC422855E7620010A4B4 /* CodableObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DDDDDC352851E7D40010A4B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDDDDC372851E7D40010A4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDDDDC3A2851E7D40010A4B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableObservableObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DDDDDC332851E7D40010A4B4 /* CupcakeCornerApp.swift */,
 				DDDDDC352851E7D40010A4B4 /* ContentView.swift */,
+				DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */,
 				DDDDDC372851E7D40010A4B4 /* Assets.xcassets */,
 				DDDDDC392851E7D40010A4B4 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDDDC422855E7620010A4B4 /* CodableObservableObject.swift in Sources */,
 				DDDDDC362851E7D40010A4B4 /* ContentView.swift in Sources */,
 				DDDDDC342851E7D40010A4B4 /* CupcakeCornerApp.swift in Sources */,
 			);
