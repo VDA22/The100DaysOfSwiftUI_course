@@ -14,6 +14,7 @@
 		DDDDDC422855E7620010A4B4 /* CodableObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */; };
 		DDDDDC442855EB720010A4B4 /* AsyncTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */; };
 		DDDDDC462855EF0C0010A4B4 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */; };
+		DDDDDC482855F6E50010A4B4 /* ReactEnablingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC472855F6E50010A4B4 /* ReactEnablingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableObservableObject.swift; sourceTree = "<group>"; };
 		DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTaskView.swift; sourceTree = "<group>"; };
 		DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		DDDDDC472855F6E50010A4B4 /* ReactEnablingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactEnablingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */,
 				DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */,
 				DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */,
+				DDDDDC472855F6E50010A4B4 /* ReactEnablingView.swift */,
 				DDDDDC372851E7D40010A4B4 /* Assets.xcassets */,
 				DDDDDC392851E7D40010A4B4 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDDDC482855F6E50010A4B4 /* ReactEnablingView.swift in Sources */,
 				DDDDDC422855E7620010A4B4 /* CodableObservableObject.swift in Sources */,
 				DDDDDC362851E7D40010A4B4 /* ContentView.swift in Sources */,
 				DDDDDC442855EB720010A4B4 /* AsyncTaskView.swift in Sources */,
