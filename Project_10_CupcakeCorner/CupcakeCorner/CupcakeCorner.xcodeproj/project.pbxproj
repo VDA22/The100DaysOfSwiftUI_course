@@ -15,6 +15,9 @@
 		DDDDDC442855EB720010A4B4 /* AsyncTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */; };
 		DDDDDC462855EF0C0010A4B4 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */; };
 		DDDDDC482855F6E50010A4B4 /* ReactEnablingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC472855F6E50010A4B4 /* ReactEnablingView.swift */; };
+		DDDDDC4A2855F8720010A4B4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC492855F8720010A4B4 /* Order.swift */; };
+		DDDDDC4C2855FC390010A4B4 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC4B2855FC390010A4B4 /* AddressView.swift */; };
+		DDDDDC4E285654B30010A4B4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC4D285654B30010A4B4 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTaskView.swift; sourceTree = "<group>"; };
 		DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		DDDDDC472855F6E50010A4B4 /* ReactEnablingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactEnablingView.swift; sourceTree = "<group>"; };
+		DDDDDC492855F8720010A4B4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		DDDDDC4B2855FC390010A4B4 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		DDDDDC4D285654B30010A4B4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +67,13 @@
 			children = (
 				DDDDDC332851E7D40010A4B4 /* CupcakeCornerApp.swift */,
 				DDDDDC352851E7D40010A4B4 /* ContentView.swift */,
+				DDDDDC4D285654B30010A4B4 /* CheckoutView.swift */,
+				DDDDDC4B2855FC390010A4B4 /* AddressView.swift */,
 				DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */,
 				DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */,
 				DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */,
 				DDDDDC472855F6E50010A4B4 /* ReactEnablingView.swift */,
+				DDDDDC492855F8720010A4B4 /* Order.swift */,
 				DDDDDC372851E7D40010A4B4 /* Assets.xcassets */,
 				DDDDDC392851E7D40010A4B4 /* Preview Content */,
 			);
@@ -150,11 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDDDC482855F6E50010A4B4 /* ReactEnablingView.swift in Sources */,
+				DDDDDC4E285654B30010A4B4 /* CheckoutView.swift in Sources */,
 				DDDDDC422855E7620010A4B4 /* CodableObservableObject.swift in Sources */,
 				DDDDDC362851E7D40010A4B4 /* ContentView.swift in Sources */,
 				DDDDDC442855EB720010A4B4 /* AsyncTaskView.swift in Sources */,
 				DDDDDC462855EF0C0010A4B4 /* AsyncImageView.swift in Sources */,
+				DDDDDC4C2855FC390010A4B4 /* AddressView.swift in Sources */,
 				DDDDDC342851E7D40010A4B4 /* CupcakeCornerApp.swift in Sources */,
+				DDDDDC4A2855F8720010A4B4 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
