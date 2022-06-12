@@ -13,6 +13,7 @@
 		DDDDDC3B2851E7D40010A4B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDDC3A2851E7D40010A4B4 /* Preview Assets.xcassets */; };
 		DDDDDC422855E7620010A4B4 /* CodableObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */; };
 		DDDDDC442855EB720010A4B4 /* AsyncTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */; };
+		DDDDDC462855EF0C0010A4B4 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DDDDDC3A2851E7D40010A4B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableObservableObject.swift; sourceTree = "<group>"; };
 		DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTaskView.swift; sourceTree = "<group>"; };
+		DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DDDDDC352851E7D40010A4B4 /* ContentView.swift */,
 				DDDDDC412855E7620010A4B4 /* CodableObservableObject.swift */,
 				DDDDDC432855EB720010A4B4 /* AsyncTaskView.swift */,
+				DDDDDC452855EF0C0010A4B4 /* AsyncImageView.swift */,
 				DDDDDC372851E7D40010A4B4 /* Assets.xcassets */,
 				DDDDDC392851E7D40010A4B4 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				DDDDDC422855E7620010A4B4 /* CodableObservableObject.swift in Sources */,
 				DDDDDC362851E7D40010A4B4 /* ContentView.swift in Sources */,
 				DDDDDC442855EB720010A4B4 /* AsyncTaskView.swift in Sources */,
+				DDDDDC462855EF0C0010A4B4 /* AsyncImageView.swift in Sources */,
 				DDDDDC342851E7D40010A4B4 /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
