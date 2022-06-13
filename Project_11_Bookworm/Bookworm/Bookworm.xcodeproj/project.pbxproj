@@ -13,6 +13,9 @@
 		DDDDDC6328574B720010A4B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDDC6228574B720010A4B4 /* Preview Assets.xcassets */; };
 		DDDDDC6C28574F7F0010A4B4 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC6B28574F7F0010A4B4 /* PushButtonView.swift */; };
 		DDDDDC6E285750490010A4B4 /* MultyLineTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC6D285750490010A4B4 /* MultyLineTextInputView.swift */; };
+		DDDDDC71285751780010A4B4 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC6F285751780010A4B4 /* Bookworm.xcdatamodeld */; };
+		DDDDDC73285751CF0010A4B4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC72285751CF0010A4B4 /* DataController.swift */; };
+		DDDDDC7528575DF90010A4B4 /* CoreDataWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC7428575DF90010A4B4 /* CoreDataWorkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		DDDDDC6228574B720010A4B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDDDDC6B28574F7F0010A4B4 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		DDDDDC6D285750490010A4B4 /* MultyLineTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultyLineTextInputView.swift; sourceTree = "<group>"; };
+		DDDDDC70285751780010A4B4 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		DDDDDC72285751CF0010A4B4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		DDDDDC7428575DF90010A4B4 /* CoreDataWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataWorkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 				DDDDDC5B28574B700010A4B4 /* BookwormApp.swift */,
 				DDDDDC6B28574F7F0010A4B4 /* PushButtonView.swift */,
 				DDDDDC5D28574B700010A4B4 /* ContentView.swift */,
+				DDDDDC7428575DF90010A4B4 /* CoreDataWorkView.swift */,
 				DDDDDC6D285750490010A4B4 /* MultyLineTextInputView.swift */,
+				DDDDDC6F285751780010A4B4 /* Bookworm.xcdatamodeld */,
+				DDDDDC72285751CF0010A4B4 /* DataController.swift */,
 				DDDDDC5F28574B720010A4B4 /* Assets.xcassets */,
 				DDDDDC6128574B720010A4B4 /* Preview Content */,
 			);
@@ -143,10 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDDDC7528575DF90010A4B4 /* CoreDataWorkView.swift in Sources */,
 				DDDDDC5E28574B700010A4B4 /* ContentView.swift in Sources */,
+				DDDDDC73285751CF0010A4B4 /* DataController.swift in Sources */,
 				DDDDDC6C28574F7F0010A4B4 /* PushButtonView.swift in Sources */,
 				DDDDDC6E285750490010A4B4 /* MultyLineTextInputView.swift in Sources */,
 				DDDDDC5C28574B700010A4B4 /* BookwormApp.swift in Sources */,
+				DDDDDC71285751780010A4B4 /* Bookworm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +359,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDDDDC6F285751780010A4B4 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDDDDC70285751780010A4B4 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = DDDDDC70285751780010A4B4 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DDDDDC5028574B700010A4B4 /* Project object */;
 }
