@@ -19,6 +19,7 @@
 		DDDDDC77285B73D60010A4B4 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC76285B73D60010A4B4 /* AddBookView.swift */; };
 		DDDDDC79285B78570010A4B4 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC78285B78570010A4B4 /* RatingView.swift */; };
 		DDDDDC7B285B7AA20010A4B4 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC7A285B7AA20010A4B4 /* EmojiRatingView.swift */; };
+		DDDDDC7D285B7CCA0010A4B4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC7C285B7CCA0010A4B4 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DDDDDC76285B73D60010A4B4 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		DDDDDC78285B78570010A4B4 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		DDDDDC7A285B7AA20010A4B4 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		DDDDDC7C285B7CCA0010A4B4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				DDDDDC5B28574B700010A4B4 /* BookwormApp.swift */,
 				DDDDDC6B28574F7F0010A4B4 /* PushButtonView.swift */,
 				DDDDDC5D28574B700010A4B4 /* ContentView.swift */,
+				DDDDDC7C285B7CCA0010A4B4 /* DetailView.swift */,
 				DDDDDC78285B78570010A4B4 /* RatingView.swift */,
 				DDDDDC7A285B7AA20010A4B4 /* EmojiRatingView.swift */,
 				DDDDDC7428575DF90010A4B4 /* CoreDataWorkView.swift */,
@@ -166,6 +169,7 @@
 				DDDDDC5E28574B700010A4B4 /* ContentView.swift in Sources */,
 				DDDDDC73285751CF0010A4B4 /* DataController.swift in Sources */,
 				DDDDDC79285B78570010A4B4 /* RatingView.swift in Sources */,
+				DDDDDC7D285B7CCA0010A4B4 /* DetailView.swift in Sources */,
 				DDDDDC77285B73D60010A4B4 /* AddBookView.swift in Sources */,
 				DDDDDC6C28574F7F0010A4B4 /* PushButtonView.swift in Sources */,
 				DDDDDC6E285750490010A4B4 /* MultyLineTextInputView.swift in Sources */,
