@@ -49,10 +49,16 @@ struct DetailView: View {
             Text("Are you sure?")
         }
         .toolbar {
-            Button {
-                showingAlert = true
-            } label: {
-                Label("Delete this book", systemImage: "trash")
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button {
+                    showingAlert = true
+                } label: {
+                    Label("Delete this book", systemImage: "trash")
+                }
+            }
+
+            ToolbarItem(placement: .bottomBar) {
+                Text(book.date.formatted(date: .complete, time: .shortened))
             }
         }
     }
@@ -63,4 +69,8 @@ struct DetailView: View {
 //        try? moc.save()
         dismiss()
     }
+}
+
+extension Book {
+    var date: Date { .now }
 }
