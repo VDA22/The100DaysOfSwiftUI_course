@@ -18,6 +18,10 @@
 		DDDDDCA5285E15D30010A4B4 /* SaveIfNeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */; };
 		DDDDDCA7285E16C30010A4B4 /* UniqueModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA6285E16C30010A4B4 /* UniqueModelView.swift */; };
 		DDDDDCA9285E1B800010A4B4 /* PredicatedResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA8285E1B800010A4B4 /* PredicatedResultView.swift */; };
+		DDDDDCAC285E1D2F0010A4B4 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCAA285E1D2F0010A4B4 /* Singer+CoreDataClass.swift */; };
+		DDDDDCAD285E1D2F0010A4B4 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCAB285E1D2F0010A4B4 /* Singer+CoreDataProperties.swift */; };
+		DDDDDCAF285E1E320010A4B4 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCAE285E1E320010A4B4 /* FilteredList.swift */; };
+		DDDDDCB1285E21540010A4B4 /* DynamicFilteredDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCB0285E21540010A4B4 /* DynamicFilteredDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIfNeedView.swift; sourceTree = "<group>"; };
 		DDDDDCA6285E16C30010A4B4 /* UniqueModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueModelView.swift; sourceTree = "<group>"; };
 		DDDDDCA8285E1B800010A4B4 /* PredicatedResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicatedResultView.swift; sourceTree = "<group>"; };
+		DDDDDCAA285E1D2F0010A4B4 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DDDDDCAB285E1D2F0010A4B4 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DDDDDCAE285E1E320010A4B4 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		DDDDDCB0285E21540010A4B4 /* DynamicFilteredDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFilteredDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,8 @@
 		DDDDDC7F285E0D280010A4B4 = {
 			isa = PBXGroup;
 			children = (
+				DDDDDCAA285E1D2F0010A4B4 /* Singer+CoreDataClass.swift */,
+				DDDDDCAB285E1D2F0010A4B4 /* Singer+CoreDataProperties.swift */,
 				DDDDDCA0285E13850010A4B4 /* Movie+CoreDataClass.swift */,
 				DDDDDCA1285E13850010A4B4 /* Movie+CoreDataProperties.swift */,
 				DDDDDC8A285E0D280010A4B4 /* CoreDataProject */,
@@ -69,6 +79,8 @@
 			children = (
 				DDDDDC8B285E0D280010A4B4 /* CoreDataProjectApp.swift */,
 				DDDDDC8D285E0D280010A4B4 /* ContentView.swift */,
+				DDDDDCAE285E1E320010A4B4 /* FilteredList.swift */,
+				DDDDDCB0285E21540010A4B4 /* DynamicFilteredDataView.swift */,
 				DDDDDCA8285E1B800010A4B4 /* PredicatedResultView.swift */,
 				DDDDDCA6285E16C30010A4B4 /* UniqueModelView.swift */,
 				DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */,
@@ -162,9 +174,13 @@
 				DDDDDC9F285E0E5C0010A4B4 /* DataController.swift in Sources */,
 				DDDDDCA9285E1B800010A4B4 /* PredicatedResultView.swift in Sources */,
 				DDDDDCA5285E15D30010A4B4 /* SaveIfNeedView.swift in Sources */,
+				DDDDDCAD285E1D2F0010A4B4 /* Singer+CoreDataProperties.swift in Sources */,
 				DDDDDCA7285E16C30010A4B4 /* UniqueModelView.swift in Sources */,
 				DDDDDC8C285E0D280010A4B4 /* CoreDataProjectApp.swift in Sources */,
 				DDDDDCA2285E13850010A4B4 /* Movie+CoreDataClass.swift in Sources */,
+				DDDDDCAF285E1E320010A4B4 /* FilteredList.swift in Sources */,
+				DDDDDCAC285E1D2F0010A4B4 /* Singer+CoreDataClass.swift in Sources */,
+				DDDDDCB1285E21540010A4B4 /* DynamicFilteredDataView.swift in Sources */,
 				DDDDDCA3285E13850010A4B4 /* Movie+CoreDataProperties.swift in Sources */,
 				DDDDDC9B285E0DA50010A4B4 /* CoreDataProject.xcdatamodeld in Sources */,
 			);
