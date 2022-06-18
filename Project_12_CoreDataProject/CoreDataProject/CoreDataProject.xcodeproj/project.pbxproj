@@ -17,6 +17,7 @@
 		DDDDDCA3285E13850010A4B4 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA1285E13850010A4B4 /* Movie+CoreDataProperties.swift */; };
 		DDDDDCA5285E15D30010A4B4 /* SaveIfNeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */; };
 		DDDDDCA7285E16C30010A4B4 /* UniqueModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA6285E16C30010A4B4 /* UniqueModelView.swift */; };
+		DDDDDCA9285E1B800010A4B4 /* PredicatedResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA8285E1B800010A4B4 /* PredicatedResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DDDDDCA1285E13850010A4B4 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIfNeedView.swift; sourceTree = "<group>"; };
 		DDDDDCA6285E16C30010A4B4 /* UniqueModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueModelView.swift; sourceTree = "<group>"; };
+		DDDDDCA8285E1B800010A4B4 /* PredicatedResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredicatedResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				DDDDDC8B285E0D280010A4B4 /* CoreDataProjectApp.swift */,
 				DDDDDC8D285E0D280010A4B4 /* ContentView.swift */,
+				DDDDDCA8285E1B800010A4B4 /* PredicatedResultView.swift */,
 				DDDDDCA6285E16C30010A4B4 /* UniqueModelView.swift */,
 				DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */,
 				DDDDDC9E285E0E5C0010A4B4 /* DataController.swift */,
@@ -157,6 +160,7 @@
 			files = (
 				DDDDDC8E285E0D280010A4B4 /* ContentView.swift in Sources */,
 				DDDDDC9F285E0E5C0010A4B4 /* DataController.swift in Sources */,
+				DDDDDCA9285E1B800010A4B4 /* PredicatedResultView.swift in Sources */,
 				DDDDDCA5285E15D30010A4B4 /* SaveIfNeedView.swift in Sources */,
 				DDDDDCA7285E16C30010A4B4 /* UniqueModelView.swift in Sources */,
 				DDDDDC8C285E0D280010A4B4 /* CoreDataProjectApp.swift in Sources */,
