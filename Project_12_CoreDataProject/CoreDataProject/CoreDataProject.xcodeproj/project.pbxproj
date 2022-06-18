@@ -15,6 +15,7 @@
 		DDDDDC9F285E0E5C0010A4B4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDC9E285E0E5C0010A4B4 /* DataController.swift */; };
 		DDDDDCA2285E13850010A4B4 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA0285E13850010A4B4 /* Movie+CoreDataClass.swift */; };
 		DDDDDCA3285E13850010A4B4 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA1285E13850010A4B4 /* Movie+CoreDataProperties.swift */; };
+		DDDDDCA5285E15D30010A4B4 /* SaveIfNeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DDDDDC9E285E0E5C0010A4B4 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		DDDDDCA0285E13850010A4B4 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DDDDDCA1285E13850010A4B4 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveIfNeedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				DDDDDC8B285E0D280010A4B4 /* CoreDataProjectApp.swift */,
 				DDDDDC8D285E0D280010A4B4 /* ContentView.swift */,
+				DDDDDCA4285E15D30010A4B4 /* SaveIfNeedView.swift */,
 				DDDDDC9E285E0E5C0010A4B4 /* DataController.swift */,
 				DDDDDC99285E0DA50010A4B4 /* CoreDataProject.xcdatamodeld */,
 				DDDDDC8F285E0D290010A4B4 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 			files = (
 				DDDDDC8E285E0D280010A4B4 /* ContentView.swift in Sources */,
 				DDDDDC9F285E0E5C0010A4B4 /* DataController.swift in Sources */,
+				DDDDDCA5285E15D30010A4B4 /* SaveIfNeedView.swift in Sources */,
 				DDDDDC8C285E0D280010A4B4 /* CoreDataProjectApp.swift in Sources */,
 				DDDDDCA2285E13850010A4B4 /* Movie+CoreDataClass.swift in Sources */,
 				DDDDDCA3285E13850010A4B4 /* Movie+CoreDataProperties.swift in Sources */,
