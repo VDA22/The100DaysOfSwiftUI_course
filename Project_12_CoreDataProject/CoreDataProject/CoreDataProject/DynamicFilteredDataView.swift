@@ -14,7 +14,12 @@ struct DynamicFilteredDataView: View {
 
     var body: some View {
         VStack {
-            FilteredList(filterKey: "lastName", filterValue: lastNameFilter) { (singer: Singer) in
+            FilteredList(
+                filterKey: "lastName",
+                filterValue: lastNameFilter,
+                filterPredicateType: .contains,
+                sortDescriptor: SortDescriptor(\.firstName)
+            ) { (singer: Singer) in
                 Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
             }
 
