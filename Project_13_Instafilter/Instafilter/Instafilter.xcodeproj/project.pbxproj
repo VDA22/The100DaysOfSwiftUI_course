@@ -12,6 +12,7 @@
 		DD48559828630AD400B071DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48559728630AD400B071DB /* Assets.xcassets */; };
 		DD48559B28630AD400B071DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48559A28630AD400B071DB /* Preview Assets.xcassets */; };
 		DD4855A428630C9900B071DB /* TextBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855A328630C9900B071DB /* TextBlurView.swift */; };
+		DD4855A628630F7300B071DB /* ConfirmationShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855A528630F7300B071DB /* ConfirmationShowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DD48559728630AD400B071DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD48559A28630AD400B071DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD4855A328630C9900B071DB /* TextBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBlurView.swift; sourceTree = "<group>"; };
+		DD4855A528630F7300B071DB /* ConfirmationShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationShowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				DD48559328630AD300B071DB /* InstafilterApp.swift */,
+				DD4855A528630F7300B071DB /* ConfirmationShowView.swift */,
 				DD48559528630AD300B071DB /* ContentView.swift */,
 				DD4855A328630C9900B071DB /* TextBlurView.swift */,
 				DD48559728630AD400B071DB /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				DD4855A428630C9900B071DB /* TextBlurView.swift in Sources */,
 				DD48559628630AD300B071DB /* ContentView.swift in Sources */,
+				DD4855A628630F7300B071DB /* ConfirmationShowView.swift in Sources */,
 				DD48559428630AD300B071DB /* InstafilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
