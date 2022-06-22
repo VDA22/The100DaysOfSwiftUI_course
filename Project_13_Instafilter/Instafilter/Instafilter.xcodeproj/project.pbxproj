@@ -11,6 +11,7 @@
 		DD48559628630AD300B071DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48559528630AD300B071DB /* ContentView.swift */; };
 		DD48559828630AD400B071DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48559728630AD400B071DB /* Assets.xcassets */; };
 		DD48559B28630AD400B071DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48559A28630AD400B071DB /* Preview Assets.xcassets */; };
+		DD4855A428630C9900B071DB /* TextBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855A328630C9900B071DB /* TextBlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD48559528630AD300B071DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD48559728630AD400B071DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD48559A28630AD400B071DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD4855A328630C9900B071DB /* TextBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DD48559328630AD300B071DB /* InstafilterApp.swift */,
 				DD48559528630AD300B071DB /* ContentView.swift */,
+				DD4855A328630C9900B071DB /* TextBlurView.swift */,
 				DD48559728630AD400B071DB /* Assets.xcassets */,
 				DD48559928630AD400B071DB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4855A428630C9900B071DB /* TextBlurView.swift in Sources */,
 				DD48559628630AD300B071DB /* ContentView.swift in Sources */,
 				DD48559428630AD300B071DB /* InstafilterApp.swift in Sources */,
 			);
