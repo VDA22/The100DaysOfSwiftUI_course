@@ -14,6 +14,8 @@
 		DD4855A428630C9900B071DB /* TextBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855A328630C9900B071DB /* TextBlurView.swift */; };
 		DD4855A628630F7300B071DB /* ConfirmationShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855A528630F7300B071DB /* ConfirmationShowView.swift */; };
 		DD4855A8286312F200B071DB /* CoreImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855A7286312F200B071DB /* CoreImageView.swift */; };
+		DD4855AA286456DD00B071DB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855A9286456DD00B071DB /* ImagePicker.swift */; };
+		DD4855AC2864583100B071DB /* WithImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855AB2864583100B071DB /* WithImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		DD4855A328630C9900B071DB /* TextBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBlurView.swift; sourceTree = "<group>"; };
 		DD4855A528630F7300B071DB /* ConfirmationShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationShowView.swift; sourceTree = "<group>"; };
 		DD4855A7286312F200B071DB /* CoreImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreImageView.swift; sourceTree = "<group>"; };
+		DD4855A9286456DD00B071DB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DD4855AB2864583100B071DB /* WithImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				DD48559328630AD300B071DB /* InstafilterApp.swift */,
+				DD4855A9286456DD00B071DB /* ImagePicker.swift */,
+				DD4855AB2864583100B071DB /* WithImagePickerView.swift */,
 				DD4855A528630F7300B071DB /* ConfirmationShowView.swift */,
 				DD48559528630AD300B071DB /* ContentView.swift */,
 				DD4855A328630C9900B071DB /* TextBlurView.swift */,
@@ -148,7 +154,9 @@
 			files = (
 				DD4855A8286312F200B071DB /* CoreImageView.swift in Sources */,
 				DD4855A428630C9900B071DB /* TextBlurView.swift in Sources */,
+				DD4855AC2864583100B071DB /* WithImagePickerView.swift in Sources */,
 				DD48559628630AD300B071DB /* ContentView.swift in Sources */,
+				DD4855AA286456DD00B071DB /* ImagePicker.swift in Sources */,
 				DD4855A628630F7300B071DB /* ConfirmationShowView.swift in Sources */,
 				DD48559428630AD300B071DB /* InstafilterApp.swift in Sources */,
 			);
