@@ -21,6 +21,13 @@ struct WithImagePickerView: View {
             Button("Select image") {
                 showingImagePicker = true
             }
+
+            Button("Save Image") {
+                guard let inputImage = inputImage else { return }
+
+                let imageSaver = ImageSaver()
+                imageSaver.wrightToPhotoAlbum(image: inputImage)
+            }
         }
         .sheet(isPresented: $showingImagePicker) {
             ImagePicker(image: $inputImage)
@@ -29,9 +36,8 @@ struct WithImagePickerView: View {
     }
 
     private func loadImage() {
-        guard let inputImage = inputImage else {
-            return
-        }
+        guard let inputImage = inputImage else { return }
+
         image = Image(uiImage: inputImage)
     }
 }
