@@ -35,7 +35,7 @@ struct LockedView: View {
                 if success {
                     isUnlock = true
                 } else {
-                    print(authenticationError?.localizedDescription)
+                    print(authenticationError?.localizedDescription ?? "")
                 }
             }
         } else {

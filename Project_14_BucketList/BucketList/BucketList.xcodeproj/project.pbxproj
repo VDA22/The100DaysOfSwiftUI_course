@@ -16,6 +16,11 @@
 		DD4855CE28688FD600B071DB /* StateOrientedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855CD28688FD600B071DB /* StateOrientedView.swift */; };
 		DD4855D028689D0300B071DB /* WithMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855CF28689D0300B071DB /* WithMapView.swift */; };
 		DD4855D22868A08400B071DB /* LockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D12868A08400B071DB /* LockedView.swift */; };
+		DD4855D42868A47300B071DB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D32868A47300B071DB /* Location.swift */; };
+		DD4855D62868AA3100B071DB /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D52868AA3100B071DB /* EditView.swift */; };
+		DD4855D82868AEBD00B071DB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D72868AEBD00B071DB /* Result.swift */; };
+		DD4855DA2868E61B00B071DB /* ContentView_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D92868E61B00B071DB /* ContentView_ViewModel.swift */; };
+		DD4855DC2868E94900B071DB /* FileManager_DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855DB2868E94900B071DB /* FileManager_DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		DD4855CD28688FD600B071DB /* StateOrientedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateOrientedView.swift; sourceTree = "<group>"; };
 		DD4855CF28689D0300B071DB /* WithMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithMapView.swift; sourceTree = "<group>"; };
 		DD4855D12868A08400B071DB /* LockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedView.swift; sourceTree = "<group>"; };
+		DD4855D32868A47300B071DB /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DD4855D52868AA3100B071DB /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		DD4855D72868AEBD00B071DB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		DD4855D92868E61B00B071DB /* ContentView_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_ViewModel.swift; sourceTree = "<group>"; };
+		DD4855DB2868E94900B071DB /* FileManager_DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager_DocumentsDirectory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +71,17 @@
 		DD4855BA286889FB00B071DB /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				DD4855D92868E61B00B071DB /* ContentView_ViewModel.swift */,
+				DD4855DB2868E94900B071DB /* FileManager_DocumentsDirectory.swift */,
+				DD4855D72868AEBD00B071DB /* Result.swift */,
+				DD4855D52868AA3100B071DB /* EditView.swift */,
 				DD4855BB286889FB00B071DB /* BucketListApp.swift */,
 				DD4855BD286889FB00B071DB /* ContentView.swift */,
 				DD4855C928688B1300B071DB /* SortCustomTypeView.swift */,
 				DD4855CB28688EB800B071DB /* WriteMessageView.swift */,
 				DD4855CD28688FD600B071DB /* StateOrientedView.swift */,
 				DD4855CF28689D0300B071DB /* WithMapView.swift */,
+				DD4855D32868A47300B071DB /* Location.swift */,
 				DD4855D12868A08400B071DB /* LockedView.swift */,
 				DD4855BF286889FC00B071DB /* Assets.xcassets */,
 				DD4855C1286889FC00B071DB /* Preview Content */,
@@ -152,10 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4855DC2868E94900B071DB /* FileManager_DocumentsDirectory.swift in Sources */,
 				DD4855CC28688EB800B071DB /* WriteMessageView.swift in Sources */,
 				DD4855BE286889FB00B071DB /* ContentView.swift in Sources */,
+				DD4855D42868A47300B071DB /* Location.swift in Sources */,
 				DD4855CA28688B1300B071DB /* SortCustomTypeView.swift in Sources */,
 				DD4855D22868A08400B071DB /* LockedView.swift in Sources */,
+				DD4855D62868AA3100B071DB /* EditView.swift in Sources */,
+				DD4855D82868AEBD00B071DB /* Result.swift in Sources */,
+				DD4855DA2868E61B00B071DB /* ContentView_ViewModel.swift in Sources */,
 				DD4855D028689D0300B071DB /* WithMapView.swift in Sources */,
 				DD4855CE28688FD600B071DB /* StateOrientedView.swift in Sources */,
 				DD4855BC286889FB00B071DB /* BucketListApp.swift in Sources */,
