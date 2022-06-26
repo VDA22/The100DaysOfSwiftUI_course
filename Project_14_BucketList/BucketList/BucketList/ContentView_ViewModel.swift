@@ -17,6 +17,10 @@ extension ContentView {
         @Published var selectedPlace: Location?
         @Published var isUnlock = false
 
+        @Published var showAuthAlert = false
+        var alertTitle = ""
+        var alertMessage = ""
+
         private let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedPlace")
 
         init() {
@@ -70,11 +74,13 @@ extension ContentView {
                             self.isUnlock = true
                         }
                     } else {
-                        // error
+                        print("Error: \(error?.localizedDescription ?? "Unknown Error")")
                     }
                 }
             } else {
-                // no biometric
+                alertTitle = "No Biometrical system"
+                alertMessage = ""
+                showAuthAlert = true
             }
         }
     }

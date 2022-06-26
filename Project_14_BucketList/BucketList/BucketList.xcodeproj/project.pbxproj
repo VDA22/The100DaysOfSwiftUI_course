@@ -21,6 +21,7 @@
 		DD4855D82868AEBD00B071DB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D72868AEBD00B071DB /* Result.swift */; };
 		DD4855DA2868E61B00B071DB /* ContentView_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D92868E61B00B071DB /* ContentView_ViewModel.swift */; };
 		DD4855DC2868E94900B071DB /* FileManager_DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855DB2868E94900B071DB /* FileManager_DocumentsDirectory.swift */; };
+		DD4855DE2868F04000B071DB /* EditView_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855DD2868F04000B071DB /* EditView_ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		DD4855D72868AEBD00B071DB /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		DD4855D92868E61B00B071DB /* ContentView_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView_ViewModel.swift; sourceTree = "<group>"; };
 		DD4855DB2868E94900B071DB /* FileManager_DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager_DocumentsDirectory.swift; sourceTree = "<group>"; };
+		DD4855DD2868F04000B071DB /* EditView_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView_ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				DD4855DB2868E94900B071DB /* FileManager_DocumentsDirectory.swift */,
 				DD4855D72868AEBD00B071DB /* Result.swift */,
 				DD4855D52868AA3100B071DB /* EditView.swift */,
+				DD4855DD2868F04000B071DB /* EditView_ViewModel.swift */,
 				DD4855BB286889FB00B071DB /* BucketListApp.swift */,
 				DD4855BD286889FB00B071DB /* ContentView.swift */,
 				DD4855C928688B1300B071DB /* SortCustomTypeView.swift */,
@@ -170,6 +173,7 @@
 				DD4855DC2868E94900B071DB /* FileManager_DocumentsDirectory.swift in Sources */,
 				DD4855CC28688EB800B071DB /* WriteMessageView.swift in Sources */,
 				DD4855BE286889FB00B071DB /* ContentView.swift in Sources */,
+				DD4855DE2868F04000B071DB /* EditView_ViewModel.swift in Sources */,
 				DD4855D42868A47300B071DB /* Location.swift in Sources */,
 				DD4855CA28688B1300B071DB /* SortCustomTypeView.swift in Sources */,
 				DD4855D22868A08400B071DB /* LockedView.swift in Sources */,
