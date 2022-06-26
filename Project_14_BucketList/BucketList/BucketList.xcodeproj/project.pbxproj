@@ -15,6 +15,7 @@
 		DD4855CC28688EB800B071DB /* WriteMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855CB28688EB800B071DB /* WriteMessageView.swift */; };
 		DD4855CE28688FD600B071DB /* StateOrientedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855CD28688FD600B071DB /* StateOrientedView.swift */; };
 		DD4855D028689D0300B071DB /* WithMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855CF28689D0300B071DB /* WithMapView.swift */; };
+		DD4855D22868A08400B071DB /* LockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4855D12868A08400B071DB /* LockedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DD4855CB28688EB800B071DB /* WriteMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteMessageView.swift; sourceTree = "<group>"; };
 		DD4855CD28688FD600B071DB /* StateOrientedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateOrientedView.swift; sourceTree = "<group>"; };
 		DD4855CF28689D0300B071DB /* WithMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithMapView.swift; sourceTree = "<group>"; };
+		DD4855D12868A08400B071DB /* LockedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				DD4855CB28688EB800B071DB /* WriteMessageView.swift */,
 				DD4855CD28688FD600B071DB /* StateOrientedView.swift */,
 				DD4855CF28689D0300B071DB /* WithMapView.swift */,
+				DD4855D12868A08400B071DB /* LockedView.swift */,
 				DD4855BF286889FC00B071DB /* Assets.xcassets */,
 				DD4855C1286889FC00B071DB /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 				DD4855CC28688EB800B071DB /* WriteMessageView.swift in Sources */,
 				DD4855BE286889FB00B071DB /* ContentView.swift in Sources */,
 				DD4855CA28688B1300B071DB /* SortCustomTypeView.swift in Sources */,
+				DD4855D22868A08400B071DB /* LockedView.swift in Sources */,
 				DD4855D028689D0300B071DB /* WithMapView.swift in Sources */,
 				DD4855CE28688FD600B071DB /* StateOrientedView.swift in Sources */,
 				DD4855BC286889FB00B071DB /* BucketListApp.swift in Sources */,
@@ -287,6 +291,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +320,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
