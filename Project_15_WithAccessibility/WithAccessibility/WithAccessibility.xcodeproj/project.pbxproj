@@ -12,6 +12,7 @@
 		DD48560A2869D97400B071DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4856092869D97400B071DB /* Assets.xcassets */; };
 		DD48560D2869D97400B071DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48560C2869D97400B071DB /* Preview Assets.xcassets */; };
 		DD4856142869DB1100B071DB /* AccessibilityImageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4856132869DB1100B071DB /* AccessibilityImageButtonView.swift */; };
+		DD4856162869DCD000B071DB /* IgnoreForAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4856152869DCD000B071DB /* IgnoreForAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DD4856092869D97400B071DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD48560C2869D97400B071DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD4856132869DB1100B071DB /* AccessibilityImageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityImageButtonView.swift; sourceTree = "<group>"; };
+		DD4856152869DCD000B071DB /* IgnoreForAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreForAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				DD4856052869D97300B071DB /* WithAccessibilityApp.swift */,
 				DD4856072869D97300B071DB /* ContentView.swift */,
+				DD4856152869DCD000B071DB /* IgnoreForAccessibility.swift */,
 				DD4856132869DB1100B071DB /* AccessibilityImageButtonView.swift */,
 				DD4856092869D97400B071DB /* Assets.xcassets */,
 				DD48560B2869D97400B071DB /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				DD4856082869D97300B071DB /* ContentView.swift in Sources */,
 				DD4856142869DB1100B071DB /* AccessibilityImageButtonView.swift in Sources */,
+				DD4856162869DCD000B071DB /* IgnoreForAccessibility.swift in Sources */,
 				DD4856062869D97300B071DB /* WithAccessibilityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
