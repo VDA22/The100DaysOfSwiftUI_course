@@ -18,6 +18,7 @@
 		DD48563C286B1EE700B071DB /* ScaledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563B286B1EE700B071DB /* ScaledImageView.swift */; };
 		DD48563E286B20BC00B071DB /* ColoringContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563D286B20BC00B071DB /* ColoringContextView.swift */; };
 		DD485640286B222700B071DB /* CustomSwipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563F286B222700B071DB /* CustomSwipesView.swift */; };
+		DD485642286B239600B071DB /* WithNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485641286B239600B071DB /* WithNotificationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		DD48563B286B1EE700B071DB /* ScaledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledImageView.swift; sourceTree = "<group>"; };
 		DD48563D286B20BC00B071DB /* ColoringContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringContextView.swift; sourceTree = "<group>"; };
 		DD48563F286B222700B071DB /* CustomSwipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipesView.swift; sourceTree = "<group>"; };
+		DD485641286B239600B071DB /* WithNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithNotificationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				DD48563B286B1EE700B071DB /* ScaledImageView.swift */,
 				DD48563D286B20BC00B071DB /* ColoringContextView.swift */,
 				DD48563F286B222700B071DB /* CustomSwipesView.swift */,
+				DD485641286B239600B071DB /* WithNotificationsView.swift */,
 				DD485627286B157500B071DB /* ContentView.swift */,
 				DD485633286B16A200B071DB /* ShareDataView.swift */,
 				DD485635286B182D00B071DB /* CustomTabView.swift */,
@@ -161,6 +164,7 @@
 				DD485634286B16A200B071DB /* ShareDataView.swift in Sources */,
 				DD48563E286B20BC00B071DB /* ColoringContextView.swift in Sources */,
 				DD485638286B19CF00B071DB /* ManuallyPublishingView.swift in Sources */,
+				DD485642286B239600B071DB /* WithNotificationsView.swift in Sources */,
 				DD485628286B157500B071DB /* ContentView.swift in Sources */,
 				DD485626286B157500B071DB /* HotProspectsApp.swift in Sources */,
 				DD485636286B182D00B071DB /* CustomTabView.swift in Sources */,
