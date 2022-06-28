@@ -11,6 +11,7 @@
 		DD485628286B157500B071DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485627286B157500B071DB /* ContentView.swift */; };
 		DD48562A286B157600B071DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD485629286B157600B071DB /* Assets.xcassets */; };
 		DD48562D286B157600B071DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48562C286B157600B071DB /* Preview Assets.xcassets */; };
+		DD485634286B16A200B071DB /* ShareDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485633286B16A200B071DB /* ShareDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD485627286B157500B071DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD485629286B157600B071DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD48562C286B157600B071DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD485633286B16A200B071DB /* ShareDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				DD485625286B157500B071DB /* HotProspectsApp.swift */,
 				DD485627286B157500B071DB /* ContentView.swift */,
+				DD485633286B16A200B071DB /* ShareDataView.swift */,
 				DD485629286B157600B071DB /* Assets.xcassets */,
 				DD48562B286B157600B071DB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD485634286B16A200B071DB /* ShareDataView.swift in Sources */,
 				DD485628286B157500B071DB /* ContentView.swift in Sources */,
 				DD485626286B157500B071DB /* HotProspectsApp.swift in Sources */,
 			);
