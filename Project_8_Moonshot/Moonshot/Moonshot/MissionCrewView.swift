@@ -41,6 +41,8 @@ struct MissionCrewView: View {
 
                 }
             }
+            .accessibilityElement()
+            .accessibilityLabel("Crew enumiration")
         }
     }
 }

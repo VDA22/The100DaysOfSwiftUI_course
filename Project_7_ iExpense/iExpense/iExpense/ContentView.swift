@@ -21,6 +21,9 @@ struct ContentView: View {
                                 makeExpenseRowView(for: item)
                             }
                         }
+                        .accessibilityElement()
+                        .accessibilityLabel("Item is \(item.name) and value is \(item.amount)")
+                        .accessibilityHint(item.type)
                     }
                     .onDelete(perform: removeItems(at:))
                 }

@@ -24,6 +24,8 @@ struct ContentView: View {
                                 if gridItemWidth == .infinity {
                                     HStack {
                                         makeGroup(for: mission)
+                                            .accessibilityElement()
+                                            .accessibilityLabel("Mission \(mission.displayName) card")
                                     }
                                 } else {
                                     VStack {
