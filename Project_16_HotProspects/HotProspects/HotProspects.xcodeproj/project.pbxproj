@@ -19,6 +19,8 @@
 		DD48563E286B20BC00B071DB /* ColoringContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563D286B20BC00B071DB /* ColoringContextView.swift */; };
 		DD485640286B222700B071DB /* CustomSwipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563F286B222700B071DB /* CustomSwipesView.swift */; };
 		DD485642286B239600B071DB /* WithNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485641286B239600B071DB /* WithNotificationsView.swift */; };
+		DD485644286B2FEA00B071DB /* WithDependencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485643286B2FEA00B071DB /* WithDependencyView.swift */; };
+		DD485647286B30EE00B071DB /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = DD485646286B30EE00B071DB /* SamplePackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,7 @@
 		DD48563D286B20BC00B071DB /* ColoringContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringContextView.swift; sourceTree = "<group>"; };
 		DD48563F286B222700B071DB /* CustomSwipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipesView.swift; sourceTree = "<group>"; };
 		DD485641286B239600B071DB /* WithNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithNotificationsView.swift; sourceTree = "<group>"; };
+		DD485643286B2FEA00B071DB /* WithDependencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithDependencyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD485647286B30EE00B071DB /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +78,7 @@
 				DD48563D286B20BC00B071DB /* ColoringContextView.swift */,
 				DD48563F286B222700B071DB /* CustomSwipesView.swift */,
 				DD485641286B239600B071DB /* WithNotificationsView.swift */,
+				DD485643286B2FEA00B071DB /* WithDependencyView.swift */,
 				DD485627286B157500B071DB /* ContentView.swift */,
 				DD485633286B16A200B071DB /* ShareDataView.swift */,
 				DD485635286B182D00B071DB /* CustomTabView.swift */,
@@ -107,6 +112,9 @@
 			dependencies = (
 			);
 			name = HotProspects;
+			packageProductDependencies = (
+				DD485646286B30EE00B071DB /* SamplePackage */,
+			);
 			productName = HotProspects;
 			productReference = DD485622286B157500B071DB /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +143,9 @@
 				Base,
 			);
 			mainGroup = DD485619286B157500B071DB;
+			packageReferences = (
+				DD485645286B30EE00B071DB /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = DD485623286B157500B071DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,6 +176,7 @@
 				DD48563E286B20BC00B071DB /* ColoringContextView.swift in Sources */,
 				DD485638286B19CF00B071DB /* ManuallyPublishingView.swift in Sources */,
 				DD485642286B239600B071DB /* WithNotificationsView.swift in Sources */,
+				DD485644286B2FEA00B071DB /* WithDependencyView.swift in Sources */,
 				DD485628286B157500B071DB /* ContentView.swift in Sources */,
 				DD485626286B157500B071DB /* HotProspectsApp.swift in Sources */,
 				DD485636286B182D00B071DB /* CustomTabView.swift in Sources */,
@@ -371,6 +383,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD485645286B30EE00B071DB /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD485646286B30EE00B071DB /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD485645286B30EE00B071DB /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DD48561A286B157500B071DB /* Project object */;
 }
