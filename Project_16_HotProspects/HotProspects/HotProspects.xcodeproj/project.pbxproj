@@ -16,6 +16,7 @@
 		DD485638286B19CF00B071DB /* ManuallyPublishingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485637286B19CF00B071DB /* ManuallyPublishingView.swift */; };
 		DD48563A286B1B7200B071DB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485639286B1B7200B071DB /* ResultView.swift */; };
 		DD48563C286B1EE700B071DB /* ScaledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563B286B1EE700B071DB /* ScaledImageView.swift */; };
+		DD48563E286B20BC00B071DB /* ColoringContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563D286B20BC00B071DB /* ColoringContextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DD485637286B19CF00B071DB /* ManuallyPublishingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyPublishingView.swift; sourceTree = "<group>"; };
 		DD485639286B1B7200B071DB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		DD48563B286B1EE700B071DB /* ScaledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledImageView.swift; sourceTree = "<group>"; };
+		DD48563D286B20BC00B071DB /* ColoringContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringContextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				DD485637286B19CF00B071DB /* ManuallyPublishingView.swift */,
 				DD485639286B1B7200B071DB /* ResultView.swift */,
 				DD48563B286B1EE700B071DB /* ScaledImageView.swift */,
+				DD48563D286B20BC00B071DB /* ColoringContextView.swift */,
 				DD485627286B157500B071DB /* ContentView.swift */,
 				DD485633286B16A200B071DB /* ShareDataView.swift */,
 				DD485635286B182D00B071DB /* CustomTabView.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD485634286B16A200B071DB /* ShareDataView.swift in Sources */,
+				DD48563E286B20BC00B071DB /* ColoringContextView.swift in Sources */,
 				DD485638286B19CF00B071DB /* ManuallyPublishingView.swift in Sources */,
 				DD485628286B157500B071DB /* ContentView.swift in Sources */,
 				DD485626286B157500B071DB /* HotProspectsApp.swift in Sources */,
