@@ -17,6 +17,7 @@
 		DD48563A286B1B7200B071DB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485639286B1B7200B071DB /* ResultView.swift */; };
 		DD48563C286B1EE700B071DB /* ScaledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563B286B1EE700B071DB /* ScaledImageView.swift */; };
 		DD48563E286B20BC00B071DB /* ColoringContextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563D286B20BC00B071DB /* ColoringContextView.swift */; };
+		DD485640286B222700B071DB /* CustomSwipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48563F286B222700B071DB /* CustomSwipesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DD485639286B1B7200B071DB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		DD48563B286B1EE700B071DB /* ScaledImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledImageView.swift; sourceTree = "<group>"; };
 		DD48563D286B20BC00B071DB /* ColoringContextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringContextView.swift; sourceTree = "<group>"; };
+		DD48563F286B222700B071DB /* CustomSwipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				DD485639286B1B7200B071DB /* ResultView.swift */,
 				DD48563B286B1EE700B071DB /* ScaledImageView.swift */,
 				DD48563D286B20BC00B071DB /* ColoringContextView.swift */,
+				DD48563F286B222700B071DB /* CustomSwipesView.swift */,
 				DD485627286B157500B071DB /* ContentView.swift */,
 				DD485633286B16A200B071DB /* ShareDataView.swift */,
 				DD485635286B182D00B071DB /* CustomTabView.swift */,
@@ -163,6 +166,7 @@
 				DD485636286B182D00B071DB /* CustomTabView.swift in Sources */,
 				DD48563C286B1EE700B071DB /* ScaledImageView.swift in Sources */,
 				DD48563A286B1B7200B071DB /* ResultView.swift in Sources */,
+				DD485640286B222700B071DB /* CustomSwipesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
