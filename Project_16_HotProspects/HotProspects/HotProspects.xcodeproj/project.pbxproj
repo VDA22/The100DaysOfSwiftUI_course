@@ -14,6 +14,7 @@
 		DD485634286B16A200B071DB /* ShareDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485633286B16A200B071DB /* ShareDataView.swift */; };
 		DD485636286B182D00B071DB /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485635286B182D00B071DB /* CustomTabView.swift */; };
 		DD485638286B19CF00B071DB /* ManuallyPublishingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485637286B19CF00B071DB /* ManuallyPublishingView.swift */; };
+		DD48563A286B1B7200B071DB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485639286B1B7200B071DB /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DD485633286B16A200B071DB /* ShareDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareDataView.swift; sourceTree = "<group>"; };
 		DD485635286B182D00B071DB /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		DD485637286B19CF00B071DB /* ManuallyPublishingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyPublishingView.swift; sourceTree = "<group>"; };
+		DD485639286B1B7200B071DB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				DD485625286B157500B071DB /* HotProspectsApp.swift */,
 				DD485637286B19CF00B071DB /* ManuallyPublishingView.swift */,
+				DD485639286B1B7200B071DB /* ResultView.swift */,
 				DD485627286B157500B071DB /* ContentView.swift */,
 				DD485633286B16A200B071DB /* ShareDataView.swift */,
 				DD485635286B182D00B071DB /* CustomTabView.swift */,
@@ -151,6 +154,7 @@
 				DD485628286B157500B071DB /* ContentView.swift in Sources */,
 				DD485626286B157500B071DB /* HotProspectsApp.swift in Sources */,
 				DD485636286B182D00B071DB /* CustomTabView.swift in Sources */,
+				DD48563A286B1B7200B071DB /* ResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
