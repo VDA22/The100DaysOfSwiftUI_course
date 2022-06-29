@@ -14,8 +14,14 @@ struct ProspectsView: View {
         case none, contacted, uncontacted
     }
 
+    enum SortingTipe {
+        case byName, byRecent
+    }
+
     @EnvironmentObject var prospects: Prospects
     @State private var isShowingScaner = false
+    @State private var isShowingSort = false
+    @State private var sortingType = SortingTipe.byName
 
     let filter: FilterType
 
@@ -41,15 +47,32 @@ struct ProspectsView: View {
         }
     }
 
+    var filteredAndSortedProspects: [Prospect] {
+        switch sortingType {
+        case .byName:
+            return filteredProspects.sorted()
+        case .byRecent:
+            return filteredProspects.sorted { $0.addDate > $1.addDate }
+        }
+    }
+
     var body: some View {
         NavigationView {
             List {
-                ForEach(filteredProspects) { prospect in
-                    VStack(alignment: .leading) {
-                        Text(prospect.name)
-                            .font(.headline)
-                        Text(prospect.emailAddress)
-                            .foregroundColor(.secondary)
+                ForEach(filteredAndSortedProspects) { prospect in
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(prospect.name)
+                                .font(.headline)
+                            Text(prospect.emailAddress)
+                                .foregroundColor(.secondary)
+                        }
+
+                        Spacer()
+
+                        if filter == .none && !prospect.isContacted {
+                            Image(systemName: "person.fill.questionmark")
+                        }
                     }
                     .swipeActions {
                         if prospect.isContacted {
@@ -75,15 +98,36 @@ struct ProspectsView: View {
                             .tint(.orange)
                         }
                     }
+                    .confirmationDialog("Sorting Rule", isPresented: $isShowingSort) {
+                        Button {
+                            sortingType = .byName
+                        } label: {
+                            Label("Sort By Name", systemImage: "arrow.up.and.person.rectangle.portrait")
+                        }
+                        Button {
+                            sortingType = .byRecent
+                        } label: {
+                            Label("Sort By Recent", systemImage: "person.badge.clock.fill")
+                        }
+                    }
                 }
             }
             .navigationTitle(title)
             .toolbar {
-                Button {
-                    isShowingScaner = true
-                } label: {
-                    Label("Scan", systemImage: "qrcode.viewfinder")
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button {
+                        isShowingScaner = true
+                    } label: {
+                        Label("Scan", systemImage: "qrcode.viewfinder")
+                    }
+
+                    Button {
+                        isShowingSort = true
+                    } label: {
+                        Label("Sort", systemImage: "arrow.up.arrow.down.circle.fill")
+                    }
                 }
+
             }
             .sheet(isPresented: $isShowingScaner) {
                 CodeScannerView(codeTypes: [.qr], simulatedData: "Paul Hudson\npaul@hackingwithswift.com", completion: handleScan)
@@ -101,6 +145,7 @@ struct ProspectsView: View {
             let prospect = Prospect()
             prospect.name = details[0]
             prospect.emailAddress = details[1]
+            prospect.addDate = Date()
             prospects.add(prospect)
         case .failure(let error):
             print(error.localizedDescription)
