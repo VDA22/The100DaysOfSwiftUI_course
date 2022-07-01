@@ -14,6 +14,7 @@
 		DD485678286F302000B071DB /* GesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485677286F302000B071DB /* GesturesView.swift */; };
 		DD48567A286F304200B071DB /* HapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485679286F304200B071DB /* HapticsView.swift */; };
 		DD48567C286F37F400B071DB /* TapAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48567B286F37F400B071DB /* TapAreaView.swift */; };
+		DD48567E286F384500B071DB /* RepeatEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD48567D286F384500B071DB /* RepeatEventsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DD485677286F302000B071DB /* GesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesView.swift; sourceTree = "<group>"; };
 		DD485679286F304200B071DB /* HapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsView.swift; sourceTree = "<group>"; };
 		DD48567B286F37F400B071DB /* TapAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAreaView.swift; sourceTree = "<group>"; };
+		DD48567D286F384500B071DB /* RepeatEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatEventsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DD485667286F29A300B071DB /* FlashzillaApp.swift */,
 				DD485669286F29A300B071DB /* ContentView.swift */,
 				DD48567B286F37F400B071DB /* TapAreaView.swift */,
+				DD48567D286F384500B071DB /* RepeatEventsView.swift */,
 				DD485677286F302000B071DB /* GesturesView.swift */,
 				DD485679286F304200B071DB /* HapticsView.swift */,
 				DD48566B286F29A400B071DB /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD48567E286F384500B071DB /* RepeatEventsView.swift in Sources */,
 				DD485678286F302000B071DB /* GesturesView.swift in Sources */,
 				DD48566A286F29A300B071DB /* ContentView.swift in Sources */,
 				DD485668286F29A300B071DB /* FlashzillaApp.swift in Sources */,
