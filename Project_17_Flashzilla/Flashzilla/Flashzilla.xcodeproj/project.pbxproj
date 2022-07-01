@@ -12,6 +12,7 @@
 		DD48566C286F29A400B071DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48566B286F29A400B071DB /* Assets.xcassets */; };
 		DD48566F286F29A400B071DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD48566E286F29A400B071DB /* Preview Assets.xcassets */; };
 		DD485678286F302000B071DB /* GesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485677286F302000B071DB /* GesturesView.swift */; };
+		DD48567A286F304200B071DB /* HapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD485679286F304200B071DB /* HapticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		DD48566B286F29A400B071DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD48566E286F29A400B071DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD485677286F302000B071DB /* GesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesView.swift; sourceTree = "<group>"; };
+		DD485679286F304200B071DB /* HapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				DD485667286F29A300B071DB /* FlashzillaApp.swift */,
 				DD485669286F29A300B071DB /* ContentView.swift */,
 				DD485677286F302000B071DB /* GesturesView.swift */,
+				DD485679286F304200B071DB /* HapticsView.swift */,
 				DD48566B286F29A400B071DB /* Assets.xcassets */,
 				DD48566D286F29A400B071DB /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				DD485678286F302000B071DB /* GesturesView.swift in Sources */,
 				DD48566A286F29A300B071DB /* ContentView.swift in Sources */,
 				DD485668286F29A300B071DB /* FlashzillaApp.swift in Sources */,
+				DD48567A286F304200B071DB /* HapticsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
