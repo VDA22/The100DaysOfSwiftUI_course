@@ -9,9 +9,12 @@ import SwiftUI
 
 struct EditCards: View {
     @Environment(\.dismiss) var dismiss
-    @State private var cards = [Card]()
+    @State private var cards: [Card] = []
     @State private var newPromt = ""
     @State private var newAnswer = ""
+
+    var loadData: (() -> [Card])? = nil
+    var saveData: (([Card]) -> Void)? = nil
 
     private let cardsKey = "Cards"
 
@@ -41,7 +44,9 @@ struct EditCards: View {
                 Button("Done", action: done)
             }
             .listStyle(.grouped)
-            .onAppear(perform: loadData)
+            .onAppear {
+                cards = loadData?() ?? []
+            }
         }
     }
 
@@ -53,29 +58,20 @@ struct EditCards: View {
 
         let card = Card(prompt: trimmedPromt, answer: trimmedAnswer)
         cards.insert(card, at: 0)
-        saveData()
+        
+        newPromt = ""
+        newAnswer = ""
+
+        saveData?(cards)
     }
 
     private func done() {
         dismiss()
     }
 
-    private func loadData() {
-        if let data = UserDefaults.standard.data(forKey: cardsKey),
-           let decoded = try? JSONDecoder().decode([Card].self, from: data) {
-            cards = decoded
-        }
-    }
-
-    private func saveData() {
-        if let data = try? JSONEncoder().encode(cards) {
-            UserDefaults.standard.set(data, forKey: cardsKey)
-        }
-    }
-
     private func removeCards(_ offsets: IndexSet) {
         cards.remove(atOffsets: offsets)
-        saveData()
+        saveData?(cards)
     }
 }
 

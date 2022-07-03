@@ -19,7 +19,9 @@ struct ContentView: View {
 
     @State private var showingEditScreen = false
 
-    private let cardsKey = "Cards"
+    private var loadedCards: [Card] { loadFromFile() }
+
+    private let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedPlace")
 
     var body: some View {
         ZStack {
@@ -37,21 +39,29 @@ struct ContentView: View {
                     .clipShape(Capsule())
 
                 ZStack {
-                    ForEach(0 ..< cards.count, id: \.self) { index in
-                        CardView(card: cards[index]) {
-                            withAnimation {
-                                removeCard(at: index)
+                    ForEach(cards) { card in
+                        if let index = cards.firstIndex(of: card) {
+                            CardView(card: card) { isCorrect in
+                                guard let index = cards.firstIndex(of: card) else { return }
+                                withAnimation {
+                                    if isCorrect {
+                                        removeCard(at: index)
+                                    } else {
+                                        reorderCards(at: index)
+                                    }
+                                }
                             }
+                            .stack(at: index, in: cards.count)
+                            .allowsHitTesting(index == cards.count - 1)
+                            .accessibilityHidden(index < cards.count - 1)
                         }
-                        .stack(at: index, in: cards.count)
-                        .allowsHitTesting(index == cards.count - 1)
-                        .accessibilityHidden(index < cards.count - 1)
                     }
                 }
                 .allowsHitTesting(timeRemaining > 0)
 
                 if cards.isEmpty {
-                    Button("Start Again", action: resetCards)
+                    Button(cards.isEmpty && loadedCards.isEmpty ? "Add Cards" : "Start Again",
+                           action: cards.isEmpty && loadedCards.isEmpty ? { showingEditScreen = true } : resetCards)
                         .padding()
                         .background(.white)
                         .foregroundColor(.black)
@@ -86,7 +96,7 @@ struct ContentView: View {
                     HStack {
                         Button {
                             withAnimation {
-                                removeCard(at: cards.count - 1)
+                                reorderCards(at: cards.count - 1)
                             }
                         } label: {
                             Image(systemName: "xmark.circle")
@@ -132,7 +142,9 @@ struct ContentView: View {
                 isActive = false
             }
         }
-        .sheet(isPresented: $showingEditScreen, onDismiss: resetCards, content: EditCards.init)
+        .sheet(isPresented: $showingEditScreen, onDismiss: resetCards) {
+            EditCards(loadData: loadFromFile, saveData: saveToFile)
+        }
         .onAppear(perform: resetCards)
     }
 
@@ -144,17 +156,45 @@ struct ContentView: View {
         }
     }
 
+    private func reorderCards(at index: Int) {
+        guard index >= 0 else { return }
+        let tempCard = cards[index]
+        let newTempCard = Card(prompt: tempCard.prompt, answer: tempCard.answer)
+        cards.remove(at: index)
+        cards.insert(newTempCard, at: 0)
+    }
+
     private func resetCards() {
-        loadData()
+        cards = loadedCards
         timeRemaining = 100
         isActive = !cards.isEmpty
     }
 
-    private func loadData() {
-        if let data = UserDefaults.standard.data(forKey: cardsKey),
-           let decoded = try? JSONDecoder().decode([Card].self, from: data) {
-            cards = decoded
+    private func loadFromFile() -> [Card] {
+        do {
+            let data = try Data(contentsOf: savePath)
+            let decodedCards = try JSONDecoder().decode([Card].self, from: data)
+            return decodedCards
+        } catch {
+            print(error.localizedDescription)
+            return []
         }
+    }
+
+    private func saveToFile(_ cards: [Card] = []) {
+        do {
+            let data = try JSONEncoder().encode(cards)
+            try data.write(to: savePath, options: [.atomicWrite, .completeFileProtection])
+        } catch {
+            print("Unable to save data.")
+        }
+    }
+}
+
+extension FileManager {
+    static var documentsDirectory: URL {
+        guard let path = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { fatalError() }
+        return path
     }
 }
 

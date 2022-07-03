@@ -16,7 +16,7 @@ struct CardView: View {
     @State private var feedBack = UINotificationFeedbackGenerator()
 
     let card: Card
-    var removal: (() -> Void)? = nil
+    var removal: ((_ isCorrect: Bool) -> Void)? = nil
 
     var body: some View {
         ZStack {
@@ -71,9 +71,11 @@ struct CardView: View {
                             feedBack.notificationOccurred(.error)
                         }
 
-                        removal?()
+                        removal?(offset.width > 0)
                     } else {
-                        offset = .zero
+                        withAnimation {
+                            offset = .zero
+                        }
                     }
                 }
         )
