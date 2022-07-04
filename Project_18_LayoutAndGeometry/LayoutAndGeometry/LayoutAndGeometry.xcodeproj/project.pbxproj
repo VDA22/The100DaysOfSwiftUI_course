@@ -11,6 +11,7 @@
 		DD22228F2873242A00D50B88 /* WithCrossViewAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD22228E2873242A00D50B88 /* WithCrossViewAlignmentView.swift */; };
 		DD222291287329E500D50B88 /* WithCustomPositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD222290287329E500D50B88 /* WithCustomPositionsView.swift */; };
 		DD2222932873312800D50B88 /* WithGeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222922873312800D50B88 /* WithGeometryReaderView.swift */; };
+		DD2222952873339200D50B88 /* ScrollAndGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222942873339200D50B88 /* ScrollAndGeometryView.swift */; };
 		DD4856962873162000B071DB /* LayoutAndGeometryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4856952873162000B071DB /* LayoutAndGeometryApp.swift */; };
 		DD4856982873162000B071DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4856972873162000B071DB /* ContentView.swift */; };
 		DD48569A2873162100B071DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4856992873162100B071DB /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		DD22228E2873242A00D50B88 /* WithCrossViewAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCrossViewAlignmentView.swift; sourceTree = "<group>"; };
 		DD222290287329E500D50B88 /* WithCustomPositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithCustomPositionsView.swift; sourceTree = "<group>"; };
 		DD2222922873312800D50B88 /* WithGeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithGeometryReaderView.swift; sourceTree = "<group>"; };
+		DD2222942873339200D50B88 /* ScrollAndGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAndGeometryView.swift; sourceTree = "<group>"; };
 		DD4856922873162000B071DB /* LayoutAndGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutAndGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4856952873162000B071DB /* LayoutAndGeometryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAndGeometryApp.swift; sourceTree = "<group>"; };
 		DD4856972873162000B071DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				DD4856952873162000B071DB /* LayoutAndGeometryApp.swift */,
 				DD4856972873162000B071DB /* ContentView.swift */,
+				DD2222942873339200D50B88 /* ScrollAndGeometryView.swift */,
 				DD2222922873312800D50B88 /* WithGeometryReaderView.swift */,
 				DD222290287329E500D50B88 /* WithCustomPositionsView.swift */,
 				DD22228E2873242A00D50B88 /* WithCrossViewAlignmentView.swift */,
@@ -155,6 +158,7 @@
 				DD22228D28731EC800D50B88 /* WithCustomAlignmentView.swift in Sources */,
 				DD222291287329E500D50B88 /* WithCustomPositionsView.swift in Sources */,
 				DD2222932873312800D50B88 /* WithGeometryReaderView.swift in Sources */,
+				DD2222952873339200D50B88 /* ScrollAndGeometryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
