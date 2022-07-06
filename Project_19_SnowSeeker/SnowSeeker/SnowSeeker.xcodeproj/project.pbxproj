@@ -11,6 +11,7 @@
 		DD2222A52876180700D50B88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222A42876180700D50B88 /* ContentView.swift */; };
 		DD2222A72876180900D50B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2222A62876180900D50B88 /* Assets.xcassets */; };
 		DD2222AA2876180900D50B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2222A92876180900D50B88 /* Preview Assets.xcassets */; };
+		DD2222B328761B1800D50B88 /* LandscapeCoolNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222B228761B1800D50B88 /* LandscapeCoolNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DD2222A42876180700D50B88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD2222A62876180900D50B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD2222A92876180900D50B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2222B228761B1800D50B88 /* LandscapeCoolNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeCoolNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				DD2222A22876180700D50B88 /* SnowSeekerApp.swift */,
+				DD2222B228761B1800D50B88 /* LandscapeCoolNavigationView.swift */,
 				DD2222A42876180700D50B88 /* ContentView.swift */,
 				DD2222A62876180900D50B88 /* Assets.xcassets */,
 				DD2222A82876180900D50B88 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				DD2222A52876180700D50B88 /* ContentView.swift in Sources */,
 				DD2222A32876180700D50B88 /* SnowSeekerApp.swift in Sources */,
+				DD2222B328761B1800D50B88 /* LandscapeCoolNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
