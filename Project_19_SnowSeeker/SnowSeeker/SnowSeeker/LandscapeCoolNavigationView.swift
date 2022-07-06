@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// Try on iPhone (landscape) max or iPad
+// Try on iPhone max (landscape) max or iPad
 struct LandscapeCoolNavigationView: View {
     var body: some View {
         NavigationLink {

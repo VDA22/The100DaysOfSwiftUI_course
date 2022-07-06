@@ -13,6 +13,7 @@
 		DD2222AA2876180900D50B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2222A92876180900D50B88 /* Preview Assets.xcassets */; };
 		DD2222B328761B1800D50B88 /* LandscapeCoolNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222B228761B1800D50B88 /* LandscapeCoolNavigationView.swift */; };
 		DD2222B528761BF300D50B88 /* PropertyShowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222B428761BF300D50B88 /* PropertyShowingView.swift */; };
+		DD2222B728761DFC00D50B88 /* WithGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222B628761DFC00D50B88 /* WithGroupsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DD2222A92876180900D50B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD2222B228761B1800D50B88 /* LandscapeCoolNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeCoolNavigationView.swift; sourceTree = "<group>"; };
 		DD2222B428761BF300D50B88 /* PropertyShowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyShowingView.swift; sourceTree = "<group>"; };
+		DD2222B628761DFC00D50B88 /* WithGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithGroupsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DD2222B228761B1800D50B88 /* LandscapeCoolNavigationView.swift */,
 				DD2222A42876180700D50B88 /* ContentView.swift */,
 				DD2222B428761BF300D50B88 /* PropertyShowingView.swift */,
+				DD2222B628761DFC00D50B88 /* WithGroupsView.swift */,
 				DD2222A62876180900D50B88 /* Assets.xcassets */,
 				DD2222A82876180900D50B88 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2222B728761DFC00D50B88 /* WithGroupsView.swift in Sources */,
 				DD2222A52876180700D50B88 /* ContentView.swift in Sources */,
 				DD2222A32876180700D50B88 /* SnowSeekerApp.swift in Sources */,
 				DD2222B328761B1800D50B88 /* LandscapeCoolNavigationView.swift in Sources */,
