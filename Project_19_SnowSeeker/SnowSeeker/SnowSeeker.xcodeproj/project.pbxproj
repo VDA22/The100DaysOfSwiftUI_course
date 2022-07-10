@@ -15,6 +15,15 @@
 		DD2222B528761BF300D50B88 /* PropertyShowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222B428761BF300D50B88 /* PropertyShowingView.swift */; };
 		DD2222B728761DFC00D50B88 /* WithGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222B628761DFC00D50B88 /* WithGroupsView.swift */; };
 		DD2222B9287ACFBF00D50B88 /* WithSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222B8287ACFBF00D50B88 /* WithSearchView.swift */; };
+		DD2222BB287AD08300D50B88 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = DD2222BA287AD08300D50B88 /* resorts.json */; };
+		DD2222BD287AD12100D50B88 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222BC287AD12100D50B88 /* Resort.swift */; };
+		DD2222BF287AD1B500D50B88 /* Bundle-decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222BE287AD1B500D50B88 /* Bundle-decodable.swift */; };
+		DD2222C1287AD4F700D50B88 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222C0287AD4F700D50B88 /* WelcomeView.swift */; };
+		DD2222C3287AD79F00D50B88 /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222C2287AD79F00D50B88 /* ResortView.swift */; };
+		DD2222C5287AD8C600D50B88 /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222C4287AD8C600D50B88 /* SkiDetailsView.swift */; };
+		DD2222C7287AD9A700D50B88 /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222C6287AD9A700D50B88 /* ResortDetailsView.swift */; };
+		DD2222C9287AFCC600D50B88 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222C8287AFCC600D50B88 /* Facility.swift */; };
+		DD2222CB287B001900D50B88 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2222CA287B001900D50B88 /* Favorites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +36,15 @@
 		DD2222B428761BF300D50B88 /* PropertyShowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyShowingView.swift; sourceTree = "<group>"; };
 		DD2222B628761DFC00D50B88 /* WithGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithGroupsView.swift; sourceTree = "<group>"; };
 		DD2222B8287ACFBF00D50B88 /* WithSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithSearchView.swift; sourceTree = "<group>"; };
+		DD2222BA287AD08300D50B88 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		DD2222BC287AD12100D50B88 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		DD2222BE287AD1B500D50B88 /* Bundle-decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-decodable.swift"; sourceTree = "<group>"; };
+		DD2222C0287AD4F700D50B88 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		DD2222C2287AD79F00D50B88 /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		DD2222C4287AD8C600D50B88 /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		DD2222C6287AD9A700D50B88 /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
+		DD2222C8287AFCC600D50B88 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		DD2222CA287B001900D50B88 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +80,18 @@
 				DD2222A22876180700D50B88 /* SnowSeekerApp.swift */,
 				DD2222B228761B1800D50B88 /* LandscapeCoolNavigationView.swift */,
 				DD2222A42876180700D50B88 /* ContentView.swift */,
+				DD2222CA287B001900D50B88 /* Favorites.swift */,
+				DD2222C2287AD79F00D50B88 /* ResortView.swift */,
+				DD2222C8287AFCC600D50B88 /* Facility.swift */,
+				DD2222C4287AD8C600D50B88 /* SkiDetailsView.swift */,
+				DD2222C6287AD9A700D50B88 /* ResortDetailsView.swift */,
+				DD2222C0287AD4F700D50B88 /* WelcomeView.swift */,
+				DD2222BC287AD12100D50B88 /* Resort.swift */,
+				DD2222BE287AD1B500D50B88 /* Bundle-decodable.swift */,
 				DD2222B8287ACFBF00D50B88 /* WithSearchView.swift */,
 				DD2222B428761BF300D50B88 /* PropertyShowingView.swift */,
 				DD2222B628761DFC00D50B88 /* WithGroupsView.swift */,
+				DD2222BA287AD08300D50B88 /* resorts.json */,
 				DD2222A62876180900D50B88 /* Assets.xcassets */,
 				DD2222A82876180900D50B88 /* Preview Content */,
 			);
@@ -137,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2222BB287AD08300D50B88 /* resorts.json in Resources */,
 				DD2222AA2876180900D50B88 /* Preview Assets.xcassets in Resources */,
 				DD2222A72876180900D50B88 /* Assets.xcassets in Resources */,
 			);
@@ -151,8 +179,16 @@
 			files = (
 				DD2222B728761DFC00D50B88 /* WithGroupsView.swift in Sources */,
 				DD2222A52876180700D50B88 /* ContentView.swift in Sources */,
+				DD2222BD287AD12100D50B88 /* Resort.swift in Sources */,
+				DD2222BF287AD1B500D50B88 /* Bundle-decodable.swift in Sources */,
+				DD2222C1287AD4F700D50B88 /* WelcomeView.swift in Sources */,
 				DD2222B9287ACFBF00D50B88 /* WithSearchView.swift in Sources */,
+				DD2222C9287AFCC600D50B88 /* Facility.swift in Sources */,
+				DD2222C7287AD9A700D50B88 /* ResortDetailsView.swift in Sources */,
 				DD2222A32876180700D50B88 /* SnowSeekerApp.swift in Sources */,
+				DD2222C3287AD79F00D50B88 /* ResortView.swift in Sources */,
+				DD2222C5287AD8C600D50B88 /* SkiDetailsView.swift in Sources */,
+				DD2222CB287B001900D50B88 /* Favorites.swift in Sources */,
 				DD2222B328761B1800D50B88 /* LandscapeCoolNavigationView.swift in Sources */,
 				DD2222B528761BF300D50B88 /* PropertyShowingView.swift in Sources */,
 			);
