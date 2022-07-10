@@ -11,13 +11,14 @@ class Favorites: ObservableObject {
     // the actual resorts the user has favorited
     private var resorts: Set<String>
 
-    // the key we're using to read/write in UserDefaults
     private let saveKey = "Favorites"
 
     init() {
-        // load our saved data
-
-        // still here? Use an empty array
+        if let data = UserDefaults.standard.data(forKey: saveKey),
+           let decodedData = try? JSONDecoder().decode(Set<String>.self, from: data) {
+            resorts = decodedData
+            return
+        }
         resorts = []
     }
 
@@ -38,6 +39,10 @@ class Favorites: ObservableObject {
     }
 
     func save() {
-        // write out our data
+        if let data = try? JSONEncoder().encode(resorts) {
+            UserDefaults.standard.set(data, forKey: saveKey)
+        } else {
+            print("Fail to encode favorite resorts")
+        }
     }
 }

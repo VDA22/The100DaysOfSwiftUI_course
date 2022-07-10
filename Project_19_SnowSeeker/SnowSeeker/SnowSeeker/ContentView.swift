@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    enum SortType {
+        case `default`
+        case byName
+        case byCountry
+    }
+
     @State private var searchText = ""
     @StateObject var favorites = Favorites()
+    @State private var sortType = SortType.default
+    @State private var showSortMenu = false
 
     let resorts: [Resort] = Bundle.main.decode("resorts.json")
     var filteredResorts: [Resort] {
@@ -20,9 +28,20 @@ struct ContentView: View {
         }
     }
 
+    var sortedResorts: [Resort] {
+        switch sortType {
+        case .default:
+            return filteredResorts
+        case .byName:
+            return filteredResorts.sorted { $0.name < $1.name }
+        case .byCountry:
+            return filteredResorts.sorted { $0.country < $1.country }
+        }
+    }
+
     var body: some View {
         NavigationView {
-            List(filteredResorts) { resort in
+            List(sortedResorts) { resort in
                 NavigationLink {
                     ResortView(resort: resort)
                 } label: {
@@ -50,6 +69,20 @@ struct ContentView: View {
                                 .accessibilityLabel("This is a favorite resort")
                                 .foregroundColor(.red)
                         }
+                    }
+                }
+                .confirmationDialog("Sort type", isPresented: $showSortMenu) {
+
+                    Button("Sort By Default") { sortType = .default }
+                    Button("Sort By Name") { sortType = .byName }
+                    Button("Sort By Country") { sortType = .byCountry }
+                }
+                .toolbar {
+                    Button {
+                        showSortMenu = true
+                    } label: {
+                        Label("Sort Resorts", systemImage: "arrow.up.arrow.down.circle.fill")
+                            .foregroundColor(.secondary)
                     }
                 }
             }
