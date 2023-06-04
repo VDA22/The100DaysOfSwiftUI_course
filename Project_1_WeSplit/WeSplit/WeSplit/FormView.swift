@@ -20,7 +20,6 @@ struct FormView: View {
                         Text("Hello, world!")
                             .padding()
                         Text("Hello, world!")
-                            .padding()
                     }
                 }
 
